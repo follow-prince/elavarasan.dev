@@ -51,8 +51,8 @@ class ContainerCard {
               ],
             ),
             const SizedBox(height: 10.0),
-            SelectableText(description,
-                style: AppThemeData.darkTheme.textTheme.labelLarge),
+            // SelectableText(description,
+            //     style: AppThemeData.darkTheme.textTheme.labelLarge),
             const SizedBox(height: 20.0),
             // ButtonTextSmall(
             //   text: 'View More >>',
@@ -64,6 +64,7 @@ class ContainerCard {
       ),
     );
   }
+
 
   Widget type2({
     required String image,
@@ -125,6 +126,86 @@ class ContainerCard {
                   value2: values[8],
                   isThreeLines: false,
                 ),
+              ],
+            ),
+            const SizedBox(height: 20.0),
+            ButtonTextSmall(
+              text: 'View More >>',
+              message: message,
+              url: url,
+            ),
+          ],
+        ),
+      ),
+    );
+  }
+
+
+
+
+
+
+
+  Widget type03({
+    required String image,
+    required String title,
+    required List values,
+    required String message,
+    required Uri url,
+  }) {
+    return Container(
+      decoration: BoxDecoration(
+        color: AppThemeData.cardGrey,
+        borderRadius: BorderRadius.circular(10.0),
+        boxShadow: [
+          BoxShadow(
+            color: Colors.black.withOpacity(0.2),
+            spreadRadius: 2,
+            blurRadius: 5,
+            offset: const Offset(0, 3), // changes position of shadow
+          ),
+        ],
+      ),
+      child: Padding(
+        padding: const EdgeInsets.all(30.0),
+        child: Column(
+          mainAxisAlignment: MainAxisAlignment.spaceBetween,
+          crossAxisAlignment: CrossAxisAlignment.start,
+          children: [
+            Column(
+              crossAxisAlignment: CrossAxisAlignment.start,
+              children: [
+                Image.asset('assets/images/$image.png', height: 70.0),
+                const SizedBox(height: 20.0),
+                SelectableText(title,
+                    style: TextStyle(
+                      fontSize: AppThemeData
+                          .darkTheme.textTheme.titleMedium!.fontSize,
+                      fontWeight: AppThemeData
+                          .darkTheme.textTheme.headlineSmall!.fontWeight,
+                      color: AppThemeData.textPrimary,
+                    )),
+                const SizedBox(height: 10.0),
+                TextPairs().type2(
+                  title: values[0],
+                  value1: values[1],
+                  value2: values[2],
+                  isThreeLines: false,
+                ),
+                // const SizedBox(height: 10.0),
+                // TextPairs().type2(
+                //   title: values[3],
+                //   value1: values[4],
+                //   value2: values[5],
+                //   isThreeLines: false,
+                // ),
+                // const SizedBox(height: 10.0),
+                // TextPairs().type2(
+                //   title: values[6],
+                //   value1: values[7],
+                //   value2: values[8],
+                //   isThreeLines: false,
+                // ),
               ],
             ),
             const SizedBox(height: 20.0),

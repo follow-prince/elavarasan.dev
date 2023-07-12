@@ -22,6 +22,46 @@ class MS3Education extends StatelessWidget {
             const FrameTitle(
                 title: DataValues.educationTitle,
                 description: DataValues.educationDescription),
+            
+
+
+            
+
+    const SizedBox(height: 20.0),
+            ContainerCard().type03(
+              image: 'mgr',
+              title: DataValues.educationOrg04Title,
+              values: [
+                DataValues.educationOrg04Course1Name,
+                DataValues.educationOrg04Course1Grade,
+                DataValues.educationOrg04Course1Year,
+
+              ],
+              message: DataValues.linkedinURL.toString(),
+              url: DataValues.linkedinURL,
+            ),
+
+        
+                const SizedBox(height: 20.0),
+            ContainerCard().type03(
+              image: 'nibm',
+              title: DataValues.educationOrg03Title,
+              values: [
+                DataValues.educationOrg03Course1Name,
+                DataValues.educationOrg03Course1Grade,
+                DataValues.educationOrg03Course1Year,
+
+              ],
+              message: DataValues.linkedinURL.toString(),
+              url: DataValues.linkedinURL,
+            ),
+
+
+
+
+
+
+
             const SizedBox(height: 30.0),
             ContainerCard().type2(
               image: 'mms',
@@ -36,24 +76,6 @@ class MS3Education extends StatelessWidget {
                 DataValues.educationOrg1Course3Name,
                 DataValues.educationOrg1Course3Year,
                 DataValues.educationOrg1Course3Year2,
-              ],
-              message: DataValues.linkedinURL.toString(),
-              url: DataValues.linkedinURL,
-            ),
-            const SizedBox(height: 20.0),
-            ContainerCard().type2(
-              image: 'nibm',
-              title: DataValues.educationOrg2Title,
-              values: [
-                DataValues.educationOrg2Course1Name,
-                DataValues.educationOrg2Course1Grade,
-                DataValues.educationOrg2Course1Year,
-                DataValues.educationOrg2Course2Name,
-                DataValues.educationOrg2Course2Grade,
-                DataValues.educationOrg2Course2Year,
-                DataValues.educationOrg2Course3Name,
-                DataValues.educationOrg2Course3Grade,
-                DataValues.educationOrg2Course3Year,
               ],
               message: DataValues.linkedinURL.toString(),
               url: DataValues.linkedinURL,

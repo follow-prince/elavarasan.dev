@@ -1,11 +1,11 @@
 class DataValues {
   // About App
   static const String appName = 'ELAVARASAN';
-  static const String appNameLong = 'dileepabandara.dev';
+  static const String appNameLong = 'elavarasan.dev';
   static const String appDescription =
       'Hello there, I\'m ELAVARASAN. This is my personal website, which contains public information that anyone can find on the internet.';
   static const String appDeveloper = 'ELAVARASAN';
-  static const String appPackage = 'dev.follow.prince_dev';
+  static const String appPackage = 'dev.elavarasan_dev';
   static const String appVersion = '3.1.2';
   static const String appBuildNumber = '1';
 
@@ -17,11 +17,11 @@ class DataValues {
   static Uri twitterURL = Uri.parse('https://twitter.com/follow_prince_');
   static Uri youtubeURL = Uri.parse('https://youtube.com/@follow-prince');
   static Uri telegramURL = Uri.parse('https://t.me/follow-Prince');
-  static Uri facebookURL = Uri.parse('https://facebook.com/0dileepabandara');
-  static Uri instagramURL = Uri.parse('https://instagram.com/_dileepabandara');
+  static Uri facebookURL = Uri.parse('https://www.facebook.com/elavarasa003');
+  static Uri instagramURL = Uri.parse('https://instagram.com/follow.prince');
   static Uri repoURL =
-      Uri.parse('https://github.com/dileepabandara/dileepabandara.dev');
-  static Uri biographyURL = Uri.parse('https://biography.dileepabandara.dev');
+      Uri.parse('https://github.com/follow-prince/elavarasan.dev');
+  static Uri biographyURL = Uri.parse('https://biography.dileepabandara.dev'); //  
   static Uri profilesURL = Uri.parse('https://profile.dileepabandara.dev');
   static Uri toolkitURL = Uri.parse('https://toolkit.dileepabandara.dev');
   static Uri volunteeringURL =
@@ -48,32 +48,32 @@ class DataValues {
       'This website includes my public details, which anyone can find on the internet. So if you are looking for my personal information, such as my bio, education, experience, and other things that may make you wonder, feel free to scroll up and down to find out about me.';
   static const String aboutMeBiographyTitle = 'Biography';
   static const String aboutMeBiographyDescription =
-      'Hi there! I\'m a computing student, solution developer, and community volunteer. I believe that personal growth and learning are essential for success, and I have dedicated my life to achieving both. '
+      'Hi there! I\'m a computing student, software developer, and community volunteer. I believe that personal growth and learning are essential for success, and I have dedicated my life to achieving both. '
       'Because of that, I\'m always looking to learn new things and apply them to whatever I\'m doing. '
       'Technology is always igniting my passion for the positive impact it can have, and I\'m excited to continue growing my skills and knowledge, so I started my career as a techie. '
       'In addition to my studies, I\'m also passionate about giving back to various communities and helping others, which is why I volunteer my time to help out whenever I can, and I believe that this work is vital in helping to create a better future for everyone.';
   static const String aboutMeFullNameTitle = 'Full Name';
   static const String aboutMeFullNameDescription =
-      'Jayasundara Mudiyanselage Dileepa Lakmal Bandara';
+      'Elavarasan S';
   static const String aboutMeNwITitle = 'Name with Initials';
-  static const String aboutMeNwIDescription = 'J.M. Dileepa Lakmal Bandara';
-  static const String aboutMeFnLTitle = 'First and Last Name';
-  static const String aboutMeFnLDescription = 'Dileepa Bandara';
+  static const String aboutMeNwIDescription = 'K.Sundaram ';
+  static const String aboutMeFnLTitle = 'What do you like to be called?';
+  static const String aboutMeFnLDescription = 'Prince';
   static const String aboutMeDobTitle = 'Birthday';
-  static const String aboutMeDobDescription = 'July 24, 1997';
+  static const String aboutMeDobDescription = 'May 27, 2001';
   static const String aboutMeLanguageTitle = 'Languages';
-  static const String aboutMeLanguageDescription = 'Sinhala (Native)\n'
+  static const String aboutMeLanguageDescription = 'Tamil (Native)\n'
       'English (Professional)';
   static const String aboutMeNationalityTitle = 'Nationality';
-  static const String aboutMeNationalityDescription = 'Sri Lankan';
+  static const String aboutMeNationalityDescription = 'India';
   static const String aboutMeGenderTitle = 'Gender';
   static const String aboutMeGenderDescription = 'Male (He/Him/His)';
   static const String aboutMeLocationTitle = 'Current Locations';
   static const String aboutMeLocationDescription =
-      'Kurunegala, Sri Lanka\nColombo, Sri Lanka';
+      'Chennai, TamilNadu,\ India (IN)';
   static const String aboutMeWorkDomainTitle = 'Working Domain';
-  static const String aboutMeWorkDomainDescription = 'dileepabandara.dev\n'
-      '08:00 - 18:00 (GMT+5:30)';
+  static const String aboutMeWorkDomainDescription = 'i-am-prince.vercel.app\n'
+      'UTC/GMT +5:30 hours';
   static const String aboutMeStudentTitle = 'Computing Student';
   static const String aboutMeStudentDescription =
       'I study computing technologies as a student by focusing on learning how computer systems work, from the physical (hardware) to the apps and programs (software) that users interact with, and I learn all about critical thinking, problem-solving, and analytical research, regardless of whether I apply all the computing principles to solve problems in scenarios.';
@@ -94,40 +94,65 @@ class DataValues {
   static const String aboutMeBanner = 'You can find my';
   static const String aboutMeBannerTitle = 'public profiles';
   static const String aboutMeBannerWeb =
-      'Visit profile.dileepabandara.dev to find all my public profiles.';
+      'Visit profile.elavarasan.dev to find all my public profiles.';
 
   // Education
   static const String educationTitle = 'Education';
   static const String educationDescription =
       'My educational background is not specific in any particular way and has come from various places. In this section, you can find out about my formal and other sources from 2003 to now. So, here are my school, undergraduate institution, and other learning platforms that I\'ve been involving for education.';
-  static const String educationOrg1Title =
-      'Maliyadeva Adarsha M.V. - Sri Lanka';
-  static const String educationOrg1Course1Name = 'GCE Advanced Level';
-  static const String educationOrg1Course1Grade =
-      'Combined Maths, Physics, and Chemistry';
-  static const String educationOrg1Course1Year = 'Attempted: 2016 & 2017';
-  static const String educationOrg1Course2Name = 'GCE Ordinary Level ';
-  static const String educationOrg1Course2Grade = 'Passed with 6A, 3B';
-  static const String educationOrg1Course2Year = '2013';
-  static const String educationOrg1Course3Name = 'Education Period';
-  static const String educationOrg1Course3Year = 'Secondary: 2008 - 2016';
-  static const String educationOrg1Course3Year2 = 'Primary: 2003 - 2007';
 
-  static const String educationOrg2Title = 'NIBM - Sri Lanka';
-  static const String educationOrg2Course1Name = 'BSc (Hons) Computing';
-  static const String educationOrg2Course1Grade =
-      'awarded by Coventry University, UK';
-  static const String educationOrg2Course1Year = '2022 - Ongoing';
-  static const String educationOrg2Course2Name =
-      'Higher National Diploma in Software Engineering';
-  static const String educationOrg2Course2Grade =
-      'awarded by NIBM - Sri Lanka, 4.0 GPA';
-  static const String educationOrg2Course2Year = '2020 - 2021';
-  static const String educationOrg2Course3Name =
-      'Diploma in Computer System Design';
-  static const String educationOrg2Course3Grade =
-      'awarded by NIBM - Sri Lanka, 3.75 GPA';
-  static const String educationOrg2Course3Year = '2019 - 2020';
+
+
+
+          //பள்ளி பிரிவு
+
+  static const String educationOrg1Title =
+      'GOVT HSS, SUNNAMBUKULAM, \ Gummidipoondi (Thiruvallur), Tamil Nadu';
+  static const String educationOrg1Course1Name = 'HSC - Higher Secondary School Certificate (+2)';
+  static const String educationOrg1Course1Grade =
+      'Commerce with Computer Science';
+  static const String educationOrg1Course1Year = 'Attempted: 2017 & 2018 \ Percentage : 67% ';
+  static const String educationOrg1Course2Name = 'SSLC - Secondary School Leaving Certificate (10th) ';
+  static const String educationOrg1Course2Grade = 'Passed with 62% Percentages';
+  static const String educationOrg1Course2Year = 'Attempted: 2015 & 2016';
+  static const String educationOrg1Course3Name = 'Education Period';
+  static const String educationOrg1Course3Year = 'Secondary: 2011 - 2018';
+  static const String educationOrg1Course3Year2 = 'Primary: 2005 - 2011';
+
+
+          // கல்லூரி பிரிவு
+
+
+
+  static const String educationOrg03Title = 'University Of Madras ';
+  static const String educationOrg03Course1Name = 'Bachelor of Commerce - B.Com';
+  static const String educationOrg03Course1Grade =
+      'CGPA 6.33 (First Class)';
+  static const String educationOrg03Course1Year = 'Attempted: 2018 - 2021';
+
+
+
+
+
+ static const String educationOrg04Title = 'Dr MGR Educational and Research Institute ';
+  static const String educationOrg04Course1Name = 'Master of Computer Application - MCA';
+  static const String educationOrg04Course1Grade =
+      'Pursuing a Final Year';
+  static const String educationOrg04Course1Year = 'Attempted: 2022 - 2024';
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   static const String educationBanner = 'These Are Some Of My Other';
   static const String educationBannerTitle = 'Online Learning Platforms';
   static const String educationBannerWeb =
