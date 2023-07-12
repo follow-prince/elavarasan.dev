@@ -2,7 +2,9 @@
 
 ![GitHub Repo Size](https://img.shields.io/github/repo-size/follow-prince/elavarasan.dev?color=d62936&label=Repo%20Size&style=flat-square)
 ![GitHub Code Size](https://img.shields.io/github/languages/code-size/follow-prince/elavarasan.dev?color=e6a400&label=Code%20Size&style=flat-square)
-![GitHub License](https://img.shields.io/github/license/follow-prince/elavarasan.dev?color=eb7005&label=License&style=flat-square)
+
+[//]: # (![GitHub License]&#40;https://img.shields.io/github/license/follow-prince/elavarasan.dev?color=eb7005&label=License&style=flat-square&#41;)
+
 ![Total Code Lines](https://img.shields.io/tokei/lines/github/follow-prince/elavarasan.dev?color=805b3c&label=Total%20Code%20Lines&style=flat-square)
 ![GitHub Commit Activity](https://img.shields.io/github/commit-activity/m/follow-prince/elavarasan.dev?color=138a3d&label=Commit%20Activity&style=flat-square)
 ![GitHub Language Count](https://img.shields.io/github/languages/count/follow-prince/elavarasan.dev?color=1f77b4&label=Total%20Languages&style=flat-square)
