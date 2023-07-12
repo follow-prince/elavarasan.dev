@@ -161,54 +161,63 @@ class DataValues {
   // Experience
   static const String experienceTitle = 'Experience';
   static const String experienceDescription =
-      'Since I started my diploma in 2019, I\'ve started to learn and apply my knowledge in different places. So I started working as a freelance solution developer, and with time, I fell in love with different technologies. I received industrial training in my second year, and now I try out my experience.';
-  static const String experienceOrg1Title = 'Dileepa Bandara';
-  static const String experienceOrg1Role = 'Solution Developer';
-  static const String experienceOrg1Years = 'June 2019 - June 2022';
+      'Since I started my MCA in 2022, I\'ve started to learn and apply my knowledge in different places. So I started working as a freelance web developer, and with time, I fell in love with different technologies. I received industrial training in my second year, and now I try out my experience.';
+  static const String experienceOrg1Title = 'Elavarasan';
+  static const String experienceOrg1Role = 'Web Developer';
+  static const String experienceOrg1Years = 'January 2023 - Percent ';
   static const String experienceOrg1Vales =
-      'Mobile, Desktop, Web development, UI UX, Tech Support Assistant & Data Analysis.';
-  static const String experienceOrg2Title = 'DDS Techvira';
+      'Mobile, Desktop, Web development, UI, Tech Support Assistant & Data Analysis.';
+  static const String experienceOrg2Title = 'DLK TECHNOLOGIES';
   static const String experienceOrg2Role =
-      'Trainee Software Developer (Flutter)';
-  static const String experienceOrg2Years = 'May 2021 - November 2021';
+      'Python Developer Intern)';
+  static const String experienceOrg2Years = 'April 2023 - May 2023';
   static const String experienceOrg2Vales =
-      'Android, Flutter, Dart, Firebase, Git, REST API, JSON Parsing & UI UX Designing.';
+      'Python, Machine Learning, Jupyter Notebook, Data Analysis and Vizuvalation.';
   static const String experienceBanner = 'Find my working';
   static const String experienceBannerTitle = 'toolkit';
   static const String experienceBannerWeb =
-      'Visit toolkit.dileepabandara.dev for more details >>';
+      'Visit toolkit.elavarasan.dev for more details >>';
+
+
+
+
 
   // Volunteering
+
+  // 1
   static const String volunteeringTitle = 'Volunteering';
   static const String volunteeringDescription =
       'Volunteering is an amazing way for me to give back to communities and make a difference. It\'s also a terrific opportunity to meet new people, learn new skills, and gain valuable experience. I do volunteer work for many different social and technical organizations. These are more focused organizations where I am presently volunteering.';
   static const String volunteeringOrg1Title = 'FlutterScope';
   static const String volunteeringOrg1Role = 'Content Creator';
-  static const String volunteeringOrg1Years = 'January 2022 - Present';
+  static const String volunteeringOrg1Years = 'January 2023 - Present';
   static const String volunteeringOrg1Vales =
       'FlutterScope was founded to disseminate knowledge about Flutter and related technologies. This community is an educational group that is not affiliated with or otherwise sponsored by Google LLC.';
+
+
+      //2
   static const String volunteeringOrg2Title = 'Microsoft';
   static const String volunteeringOrg2Role =
       'Microsoft Learn Student Ambassador';
-  static const String volunteeringOrg2Years = 'October 2022 - Present';
+  static const String volunteeringOrg2Years = 'Jun 2023 - Present';
   static const String volunteeringOrg2Vales =
       'Microsoft Learn Student Ambassadors are a global group of campus leaders who are eager to help fellow students, create robust tech communities, and develop technical and career skills for the future.';
   static const String volunteeringBanner = 'Find more about my';
   static const String volunteeringBannerTitle = 'volunteering';
   static const String volunteeringBannerWeb =
-      'Visit volunteer.dileepabandara.dev for more details >>';
+      'Visit volunteer.elavarasan.dev for more details >>';
 
   // TechNotes
   static const String technotesTitle = 'TechNotes';
   static const String technotesDescription =
-      'I love creating content as a hobby! It\'s a fantastic outlet for my creativity, and I enjoy expressing myself and connecting with people who share my interests. I have a blog where I can share my written ideas, and a vlog where my voice can be heard. It\'s a great way to connect with others and share my passion for technology and all things digital. Join me on this exciting journey of exploration and discovery in the tech world!';
-  static const String technotesOrg1Title = 'TechNotes by Dileepa | Blog';
+      'I enjoy creating content as a hobby! It \'s an amazing way for me to express my creativity and connect with like-minded individuals. I have a blog where I can share my thoughts in writing, and a vlog where I can communicate my ideas verbally. It \'s a wonderful means of connecting with others and sharing my enthusiasm for technology and everything related to the digital realm. Come along with me on this thrilling adventure of exploring and discovering the world of tech!';
+  static const String technotesOrg1Title = 'TechNotes by elavarasan | Blog';
   static const String technotesOrg1Role =
       'Embark on a journey of discovery and exploration.';
-  static const String technotesOrg1Years = '2023 March - Present';
+  static const String technotesOrg1Years = '2023 may - Present';
   static const String technotesOrg1Vales =
       'Welcome to my tech blog, where I share my tech notes! As a passionate tech enthusiast, I\'m always on the lookout for the latest and most innovative advancements in the industry, and I can\'t wait to share my findings with you. In this space, we\'ll dive deep into a variety of exciting tech topics, ranging from revolutionary software solutions to groundbreaking ideas and futuristic concepts. Along the way, I\'ll share my personal experiences and provide insights on how these developments impact our world. Join me on this exciting journey of discovery and exploration in the dynamic world of technology through this blog!';
-  static const String technotesOrg2Title = 'TechNotes by Dileepa | Vlog';
+  static const String technotesOrg2Title = 'TechNotes by Elavarasan | Vlog';
   static const String technotesOrg2Role =
       'Exploring the frontiers of the computer world.';
   static const String technotesOrg2Years = 'Coming Soon';
@@ -219,11 +228,11 @@ class DataValues {
   static const String contactDescription =
       'Hey! I appreciate you looking at my public profile. Please feel free to ask me anything or to discuss anything with me. I\'m happy to chat with and meet new people. Regardless of the fact that I don\'t use social media much, you can find me there. So find me and get in touch with me. Send me an email if you need to discuss anything serious with me. I\'ll get back to you in 12 to 24 hours.';
   static const String contactBanner = 'Send me an email at';
-  static const String contactEmail = 'contact@dileepabandara.dev';
+  static const String contactEmail = 'elavarasa.003@gmail.com';
 
   // Footer
   static const String copyright =
-      "Copyright ©2023 Dileepa Bandara. All Rights Reserved.";
+      "Copyright ©2023 Prince. All Rights Reserved.";
 
   static const String builtWith = "Built with Flutter and GitHub Pages.";
 }

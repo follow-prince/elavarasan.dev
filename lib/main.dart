@@ -139,7 +139,7 @@ class _HomePageState extends State<HomePage> {
           : FloatingActionButton(
         onPressed: _scrollToTop,
         tooltip: 'Go to top',
-        backgroundColor: AppThemeData.buttonPrimary,
+        backgroundColor: Color.fromARGB(113, 85, 255, 0),
         foregroundColor: AppThemeData.iconSecondary,
         child: const Icon(
           Icons.arrow_upward_rounded,

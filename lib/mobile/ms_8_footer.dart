@@ -19,7 +19,7 @@ class MS8Footer extends StatelessWidget {
           child: Text(
             'Get Source Code',
             style: TextStyle(
-              color: AppThemeData.textPrimary,
+              color: const Color.fromARGB(255, 85, 254, 0),
               fontSize: Theme.of(context).textTheme.bodyMedium!.fontSize,
               fontWeight: Theme.of(context).textTheme.bodyMedium!.fontWeight,
             ),

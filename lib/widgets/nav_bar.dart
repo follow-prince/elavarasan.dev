@@ -62,7 +62,7 @@ class NavBar {
                   KeyHolders.contactKey.currentContext!,
                   duration: const Duration(milliseconds: 1000),
                 ),
-            color: AppThemeData.buttonPrimary,
+            color: Color.fromARGB(183, 60, 255, 0),
             message: 'Go to ${DataValues.navBarContactMe} section'),
       ],
     );
@@ -77,7 +77,7 @@ class NavBar {
           SelectableText(
             DataValues.headerName,
             style: TextStyle(
-              color: AppThemeData.textPrimary,
+              color: Color.fromARGB(255, 94, 255, 1),
               fontSize: AppThemeData.darkTheme.textTheme.titleLarge?.fontSize,
               fontWeight: FontWeight.bold,
             ),
@@ -149,7 +149,7 @@ class NavBar {
                     KeyHolders.contactKey.currentContext!,
                     duration: const Duration(milliseconds: 1000),
                   ),
-              color: AppThemeData.buttonPrimary,
+              color: Color.fromARGB(155, 85, 255, 0),
               message: 'Go to ${DataValues.navBarContactMe} section'),
         ],
       ),

@@ -45,7 +45,7 @@ class ContainerBanner {
                                 .darkTheme.textTheme.titleLarge!.fontSize,
                             fontWeight: AppThemeData
                                 .darkTheme.textTheme.titleLarge!.fontWeight,
-                            color: AppThemeData.textPrimary,
+                            color: const Color.fromARGB(255, 85, 254, 0),
                           ),
                         ),
                       ],
@@ -71,7 +71,7 @@ class ContainerBanner {
                                 .darkTheme.textTheme.titleLarge!.fontSize,
                             fontWeight: AppThemeData
                                 .darkTheme.textTheme.titleLarge!.fontWeight,
-                            color: AppThemeData.textPrimary,
+                            color: const Color.fromARGB(255, 85, 254, 0),
                           ),
                         ),
                       ],

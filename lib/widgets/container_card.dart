@@ -16,7 +16,7 @@ class ContainerCard {
   }) {
     return Container(
       decoration: BoxDecoration(
-        color: AppThemeData.cardGrey,
+        color: Color.fromARGB(77, 75, 75, 75),
         borderRadius: BorderRadius.circular(10.0),
         boxShadow: [
           BoxShadow(
@@ -36,7 +36,7 @@ class ContainerCard {
             Column(
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
-                Image.asset(image, height: 70.0, width: 70.0),
+                Image.asset(image, height: 70.0, width: 70.0, color: Color.fromRGBO(82, 255, 8, 1),),
                 const SizedBox(height: 20.0),
                 SelectableText(
                   title,
@@ -45,7 +45,7 @@ class ContainerCard {
                         AppThemeData.darkTheme.textTheme.titleMedium!.fontSize,
                     fontWeight: AppThemeData
                         .darkTheme.textTheme.headlineSmall!.fontWeight,
-                    color: AppThemeData.textWhite,
+                    color: Color.fromARGB(255, 255, 255, 255),
                   ),
                 ),
               ],
@@ -75,7 +75,7 @@ class ContainerCard {
   }) {
     return Container(
       decoration: BoxDecoration(
-        color: AppThemeData.cardGrey,
+        color: Color.fromARGB(100, 79, 79, 79),
         borderRadius: BorderRadius.circular(10.0),
         boxShadow: [
           BoxShadow(
@@ -103,7 +103,7 @@ class ContainerCard {
                           .darkTheme.textTheme.titleMedium!.fontSize,
                       fontWeight: AppThemeData
                           .darkTheme.textTheme.headlineSmall!.fontWeight,
-                      color: AppThemeData.textPrimary,
+                      color: Color.fromARGB(255, 85, 254, 0),
                     )),
                 const SizedBox(height: 10.0),
                 TextPairs().type2(
@@ -155,7 +155,7 @@ class ContainerCard {
   }) {
     return Container(
       decoration: BoxDecoration(
-        color: AppThemeData.cardGrey,
+        color: Color.fromARGB(80, 91, 91, 91),
         borderRadius: BorderRadius.circular(10.0),
         boxShadow: [
           BoxShadow(
@@ -183,7 +183,7 @@ class ContainerCard {
                           .darkTheme.textTheme.titleMedium!.fontSize,
                       fontWeight: AppThemeData
                           .darkTheme.textTheme.headlineSmall!.fontWeight,
-                      color: AppThemeData.textPrimary,
+                      color: Color.fromARGB(255, 85, 254, 0),
                     )),
                 const SizedBox(height: 10.0),
                 TextPairs().type2(
@@ -232,7 +232,7 @@ class ContainerCard {
   }) {
     return Container(
       decoration: BoxDecoration(
-        color: AppThemeData.cardGrey,
+        color: Color.fromARGB(89, 92, 92, 92),
         borderRadius: BorderRadius.circular(10.0),
         boxShadow: [
           BoxShadow(
@@ -252,7 +252,7 @@ class ContainerCard {
             Column(
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
-                Image.asset('assets/images/$image.png', height: 70.0),
+                Image.asset('assets/images/$image.png', height: 50.0),
                 const SizedBox(height: 20.0),
                 SelectableText(title,
                     style: TextStyle(

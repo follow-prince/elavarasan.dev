@@ -61,7 +61,7 @@ class DS7Contact extends StatelessWidget {
                               .darkTheme.textTheme.titleMedium!.fontSize,
                           fontWeight: AppThemeData
                               .darkTheme.textTheme.titleLarge!.fontWeight,
-                          color: AppThemeData.textPrimary,
+                          color: Color.fromARGB(123, 0, 255, 42),
                         ),
                       ),
                     ),
@@ -78,7 +78,7 @@ class DS7Contact extends StatelessWidget {
             ),
             ContainerBanner().type2(
               message:
-                  'Visit profile.dileepabandara.dev to view my all profiles >>',
+                  'Visit profile.elavarasan.dev to view my all profiles >>',
               url: DataValues.profilesURL,
             ),
           ],

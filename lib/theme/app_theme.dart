@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 
 class AppThemeData {
   // Colors: Main Colors
-  static const Color primaryColor = Color.fromRGBO(1, 159, 171, 1.0);
+  static const Color primaryColor = Color.fromRGBO(89, 244, 0, 1);
   static const Color secondaryColor = Color.fromRGBO(18, 18, 18, 1.0);
 
   // Colors: Text
@@ -25,7 +25,7 @@ class AppThemeData {
   static const tooltip = Color.fromRGBO(33, 33, 33, 1.0);
 
   // Colors: Opacity
-  static const opacityPrimary = Color.fromRGBO(1, 159, 171, 1.0);
+  static const opacityPrimary = Color.fromRGBO(60, 255, 0, 1);
   static const opacitySecondary = Color.fromRGBO(0, 0, 0, 0.5019607843137255);
 
   // Radius
@@ -48,10 +48,10 @@ class AppThemeData {
       decoration: BoxDecoration(
         color: tooltip,
         border: Border(
-          top: BorderSide(color: textGreyDark, width: 1.0),
-          left: BorderSide(color: textGreyDark, width: 1.0),
-          right: BorderSide(color: textGreyDark, width: 1.0),
-          bottom: BorderSide(color: textGreyDark, width: 1.0),
+          top: BorderSide(color: Color.fromRGBO(60, 255, 0, 1), width: 1.0),
+          left: BorderSide(color: Color.fromRGBO(60, 255, 0, 1), width: 1.0),
+          right: BorderSide(color: Color.fromRGBO(60, 255, 0, 1), width: 1.0),
+          bottom: BorderSide(color: Color.fromRGBO(60, 255, 0, 1), width: 1.0),
         ),
         borderRadius: BorderRadius.all(Radius.circular(4.0)),
       ),

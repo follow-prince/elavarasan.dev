@@ -64,7 +64,7 @@ class MS7Contact extends StatelessWidget {
                               .darkTheme.textTheme.titleMedium!.fontSize,
                           fontWeight: AppThemeData
                               .darkTheme.textTheme.titleLarge!.fontWeight,
-                          color: AppThemeData.textPrimary,
+                          color: Color.fromARGB(255, 85, 255, 0),
                         ),
                       ),
                     ),
