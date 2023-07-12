@@ -14,7 +14,7 @@
 ![GitHub Total Downloads](https://img.shields.io/github/downloads/follow-prince/elavarasan.dev/total?color=4a2600&label=Total%20Downloads&style=flat-square)
 ![Website Status](https://img.shields.io/website?down_message=Down%20%26%20Offline&label=Website%20Status&up_message=Up%20%26%20Online&url=https%3A%2F%2Fdileepabandara.dev)
 
-**Live Preview: 👉🏽 [elavarasan.dev](https://i-am-prince.vercel.app/)**
+**Live Preview: 👉🏽 [elavarasan.dev](https://i-am-prince.vercel.app)**
 
 ✨ Hello there, I'm Dileepa Bandara. This is my personal website, which contains public information that anyone can find on the internet.
 
@@ -39,11 +39,11 @@ Source Code
 
 - [main](https://github.com/follow-prince/elavarasan.dev/tree/main) - Stable and latest version of the source code
 - [1.0.0](https://github.com/follow-prince/elavarasan.dev,v/tree/1.0.0) - Stable 1.0.0 version of the source code
-- [1.1.x](https://github.com/dileepabandara/dileepabandara.dev/tree/1.1.x) - Unstable and development versions of the source code
+- [1.1.x](https://github.com/follow-prince/elavarasan.dev/tree/1.1.x) - Unstable and development versions of the source code
 
 Web Build
 
-- [web-build](https://github.com/dileepabandara/dileepabandara.dev/tree/web-build) - Stable and latest version of the web build
+- [web-build](https://github.com/follow-prince/elavarasan.dev/tree/web-build) - Stable and latest version of the web build
 
 ## 💙 Built With
 
@@ -70,7 +70,7 @@ Web Build
 
 ## 🚀 How to Run
 
-- Download `web-build` directory from the [web-build](https://github.com/dileepabandara/dileepabandara.dev/tree/web-build) branch.
+- Download `web-build` directory from the [web-build](https://github.com/follow-prince/elavarasan.dev/tree/web-build) branch.
 - Move the build files to a server such as `localhost`, `GitHub Pages`, or any other `http/https` web server.
 - Set up and run the `index.html` file.
 
@@ -93,19 +93,13 @@ If you find any issues with this branch or would like to suggest changes, feel f
 
 Thanks to everyone who supported.
 
-## 📜 License
-
-This project is licensed under the MIT License.  
-MIT [©dileepabandara.dev](https://dileepabandara.dev)  
-See the license file for more
-details [LICENSE.md](https://github.com/dileepabandara/dileepabandara.dev/blob/main/LICENSE)
 
 ## 👨‍💻 Developed By
 
-Dileepa Bandara  
-[©dileepabandara.dev](https://dileepabandara.dev)
+ELAVARASAN
+[©elavarasan.dev](https://i-am-prince.vercel.app)
 
 ## 💬 Contact
 
 Send me an email if you need to contact me to discuss anything.  
-Email - <contact@dileepabandara.dev>
+Email - <elavarasa.003@gmail.com>
