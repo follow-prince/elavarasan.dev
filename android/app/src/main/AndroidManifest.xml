@@ -1,7 +1,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="dev.dileepabandara.dileepabandara_dev">
+    package="dev.elavarasan.elavarasan_dev">
    <application
-        android:label="dileepabandara_dev"
+        android:label="elavarasan_dev"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
         <activity

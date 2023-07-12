@@ -1,0 +1,168 @@
+!! PLEASE REVIEW THIS LOG FOR SENSITIVE INFORMATION BEFORE SHARING !!
+
+Dart Code extension: 3.69.20230706
+Flutter extension: 3.68.0 (activated)
+
+App: Visual Studio Code
+Version: 1.80.0
+Platform: linux
+
+HTTP_PROXY: undefined
+NO_PROXY: undefined
+
+Logging Categories:
+    General
+
+Wed Jul 12 2023 [10:22:10 GMT+0530 (India Standard Time)] Log file started
+[10:22:10] [General] [Info] Dart/Flutter tooling telemetry is opted-out, disabling for Dart Code
+[10:22:10] [General] [Info] Searching for SDKs...
+[10:22:10] [General] [Info] Environment PATH:
+[10:22:10] [General] [Info]     /home/prince/anaconda3/bin
+[10:22:10] [General] [Info]     /home/prince/anaconda3/condabin
+[10:22:10] [General] [Info]     /home/prince/.nvm/versions/node/v20.3.0/bin
+[10:22:10] [General] [Info]     /usr/local/sbin
+[10:22:10] [General] [Info]     /usr/sbin
+[10:22:10] [General] [Info]     /sbin
+[10:22:10] [General] [Info]     /usr/local/bin
+[10:22:10] [General] [Info]     /usr/bin
+[10:22:10] [General] [Info]     /bin
+[10:22:10] [General] [Info]     /usr/local/games
+[10:22:10] [General] [Info]     /usr/games
+[10:22:10] [General] [Info]     /snap/bin
+[10:22:10] [General] [Info]     /home/prince/.dotnet/tools
+[10:22:10] [General] [Info] Took 73ms to search for projects (5 levels)
+[10:22:10] [General] [Info] Took 6ms to filter out excluded projects (0 exclusion rules)
+[10:22:10] [General] [Info] Found Flutter project at /home/prince/Desktop/Apps/elavarasan.dev:
+			Mobile? true
+			Web? false
+			Create Trigger? false
+			Flutter Repo? false
+[10:22:10] [General] [Info] Searching for flutter
+[10:22:10] [General] [Info]     Looking for flutter in:
+[10:22:10] [General] [Info]         /home/prince/Desktop/Apps/elavarasan.dev
+[10:22:10] [General] [Info]         /home/prince/Desktop/Apps/elavarasan.dev -> /home/prince/Desktop/Apps/elavarasan.dev/bin
+[10:22:10] [General] [Info]         /home/prince/flutter/bin/
+[10:22:10] [General] [Info]         /home/prince/Desktop/Apps/elavarasan.dev/.flutter
+[10:22:10] [General] [Info]         /home/prince/Desktop/Apps/elavarasan.dev/.flutter -> /home/prince/Desktop/Apps/elavarasan.dev/.flutter/bin
+[10:22:10] [General] [Info]         /home/prince/Desktop/Apps/elavarasan.dev/vendor/flutter
+[10:22:10] [General] [Info]         /home/prince/Desktop/Apps/elavarasan.dev/vendor/flutter -> /home/prince/Desktop/Apps/elavarasan.dev/vendor/flutter/bin
+[10:22:10] [General] [Info]         /home/prince/snap/flutter/common/flutter
+[10:22:10] [General] [Info]         /home/prince/snap/flutter/common/flutter -> /home/prince/snap/flutter/common/flutter/bin
+[10:22:10] [General] [Info]         /home/prince/flutter-sdk
+[10:22:10] [General] [Info]         /home/prince/flutter-sdk -> /home/prince/flutter-sdk/bin
+[10:22:10] [General] [Info]         /google/flutter
+[10:22:10] [General] [Info]         /google/flutter -> /google/flutter/bin
+[10:22:10] [General] [Info]         /home/prince/anaconda3/bin
+[10:22:10] [General] [Info]         /home/prince/anaconda3/condabin
+[10:22:10] [General] [Info]         /home/prince/anaconda3/condabin -> /home/prince/anaconda3/condabin/bin
+[10:22:10] [General] [Info]         /home/prince/.nvm/versions/node/v20.3.0/bin
+[10:22:10] [General] [Info]         /usr/local/sbin
+[10:22:10] [General] [Info]         /usr/sbin
+[10:22:10] [General] [Info]         /sbin
+[10:22:10] [General] [Info]         /usr/local/bin
+[10:22:10] [General] [Info]         /usr/bin
+[10:22:10] [General] [Info]         /bin
+[10:22:10] [General] [Info]         /usr/local/games
+[10:22:10] [General] [Info]         /usr/local/games -> /usr/local/games/bin
+[10:22:10] [General] [Info]         /usr/games
+[10:22:10] [General] [Info]         /usr/games -> /usr/games/bin
+[10:22:10] [General] [Info]         /snap/bin
+[10:22:10] [General] [Info]         /home/prince/.dotnet/tools
+[10:22:10] [General] [Info]         /home/prince/.dotnet/tools -> /home/prince/.dotnet/tools/bin
+[10:22:10] [General] [Info]     Found at:
+[10:22:10] [General] [Info]         /home/prince/flutter/bin/
+[10:22:10] [General] [Info]     Candidate paths to be post-filtered:
+[10:22:10] [General] [Info]         /home/prince/flutter/bin/ -> /home/prince/flutter
+[10:22:10] [General] [Info]     Found at /home/prince/flutter/bin/ -> /home/prince/flutter
+[10:22:10] [General] [Info]     Returning SDK path /home/prince/flutter for flutter
+[10:22:10] [General] [Info] Searching for dart
+[10:22:10] [General] [Info]     Looking for dart in:
+[10:22:10] [General] [Info]         /home/prince/flutter/bin/cache/dart-sdk
+[10:22:10] [General] [Info]         /home/prince/flutter/bin/cache/dart-sdk -> /home/prince/flutter/bin/cache/dart-sdk/bin
+[10:22:10] [General] [Info]         /home/prince/anaconda3/bin
+[10:22:10] [General] [Info]         /home/prince/anaconda3/condabin
+[10:22:10] [General] [Info]         /home/prince/anaconda3/condabin -> /home/prince/anaconda3/condabin/bin
+[10:22:10] [General] [Info]         /home/prince/.nvm/versions/node/v20.3.0/bin
+[10:22:10] [General] [Info]         /usr/local/sbin
+[10:22:10] [General] [Info]         /usr/sbin
+[10:22:10] [General] [Info]         /sbin
+[10:22:10] [General] [Info]         /usr/local/bin
+[10:22:10] [General] [Info]         /usr/bin
+[10:22:10] [General] [Info]         /bin
+[10:22:10] [General] [Info]         /usr/local/games
+[10:22:10] [General] [Info]         /usr/local/games -> /usr/local/games/bin
+[10:22:10] [General] [Info]         /usr/games
+[10:22:10] [General] [Info]         /usr/games -> /usr/games/bin
+[10:22:10] [General] [Info]         /snap/bin
+[10:22:10] [General] [Info]         /home/prince/.dotnet/tools
+[10:22:10] [General] [Info]         /home/prince/.dotnet/tools -> /home/prince/.dotnet/tools/bin
+[10:22:10] [General] [Info]         /home/prince/flutter/bin/cache/dart-sdk
+[10:22:10] [General] [Info]         /home/prince/flutter/bin/cache/dart-sdk -> /home/prince/flutter/bin/cache/dart-sdk/bin
+[10:22:10] [General] [Info]     Found at:
+[10:22:10] [General] [Info]         /home/prince/flutter/bin/cache/dart-sdk -> /home/prince/flutter/bin/cache/dart-sdk/bin
+[10:22:10] [General] [Info]         /usr/bin
+[10:22:10] [General] [Info]         /bin
+[10:22:10] [General] [Info]         /home/prince/flutter/bin/cache/dart-sdk -> /home/prince/flutter/bin/cache/dart-sdk/bin
+[10:22:10] [General] [Info] Following symlink: /usr/bin/dart -> /usr/lib/dart/bin/dart
+[10:22:10] [General] [Info] Following symlink: /bin/dart -> /usr/lib/dart/bin/dart
+[10:22:10] [General] [Info]     Candidate paths to be post-filtered:
+[10:22:10] [General] [Info]         /home/prince/flutter/bin/cache/dart-sdk
+[10:22:10] [General] [Info]         /usr/bin -> /usr/lib/dart
+[10:22:10] [General] [Info]         /bin -> /usr/lib/dart
+[10:22:10] [General] [Info]         /home/prince/flutter/bin/cache/dart-sdk
+[10:22:10] [General] [Info]     Found at /home/prince/flutter/bin/cache/dart-sdk
+[10:22:10] [General] [Info]     Returning SDK path /home/prince/flutter/bin/cache/dart-sdk for dart
+[10:22:10] [General] [Info] !! PLEASE REVIEW THIS LOG FOR SENSITIVE INFORMATION BEFORE SHARING !!
+
+Dart Code extension: 3.69.20230706
+Flutter extension: 3.68.0 (activated)
+
+App: Visual Studio Code
+Version: 1.80.0
+Platform: linux
+
+Workspace type: Flutter
+Analyzer type: LSP
+Multi-root?: false
+
+Dart SDK:
+    Loc: /home/prince/flutter/bin/cache/dart-sdk
+    Ver: 3.1.0-163.1.beta
+Flutter SDK:
+    Loc: /home/prince/flutter
+    Ver: 3.12.0-1.1.pre
+
+HTTP_PROXY: undefined
+NO_PROXY: undefined
+[10:22:10] [General] [Info] Returning cached results for project search
+[10:22:10] [General] [Info] Activating Flutter extension for Flutter project...
+[10:22:10] [General] [Info] Version last used for Pub is 3.1.0-163.1.beta (3.1.0), current is 3.1.0-163.1.beta (3.1.0)
+[10:22:10] [General] [Info] Found 0 folders requiring "pub get" or "pub upgrade":
+[10:22:10] [General] [Info] Done!
+[10:22:10] [General] [Info] !! PLEASE REVIEW THIS LOG FOR SENSITIVE INFORMATION BEFORE SHARING !!
+
+Dart Code extension: 3.69.20230706
+Flutter extension: 3.68.0 (activated)
+
+App: Visual Studio Code
+Version: 1.80.0
+Platform: linux
+
+Workspace type: Flutter
+Analyzer type: LSP
+Multi-root?: false
+
+Dart SDK:
+    Loc: /home/prince/flutter/bin/cache/dart-sdk
+    Ver: 3.1.0-163.1.beta
+Flutter SDK:
+    Loc: /home/prince/flutter
+    Ver: 3.12.0-1.1.pre
+
+HTTP_PROXY: undefined
+NO_PROXY: undefined
+[10:22:10] [General] [Info] Loaded 20000 package names from vscode-userdata:/home/prince/.config/Code/User/globalStorage/dart-code.dart-code/package_cache.json
+[10:22:15] [General] [Info] Returning cached results for project search
+[10:22:15] [General] [Info] Checking 1 projects for supported platforms
+[10:22:15] [General] [Info] Supported platforms for the workspace are linux, macos, windows, ios, android, web
+Wed Jul 12 2023 [10:41:16 GMT+0530 (India Standard Time)] Log file ended

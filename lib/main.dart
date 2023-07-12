@@ -35,6 +35,7 @@ class MyApp extends StatelessWidget {
       theme: AppThemeData.darkTheme,
       home: const HomePage(),
     );
+    
   }
 }
 
@@ -53,9 +54,9 @@ class _HomePageState extends State<HomePage> {
   void initState() {
     _scrollController = ScrollController()
       ..addListener(
-        () {
-          setState(
             () {
+          setState(
+                () {
               if (_scrollController.offset >= 300) {
                 _showBackToTopButton = true;
               } else {
@@ -136,15 +137,15 @@ class _HomePageState extends State<HomePage> {
       floatingActionButton: _showBackToTopButton == false
           ? null
           : FloatingActionButton(
-              onPressed: _scrollToTop,
-              tooltip: 'Go to top',
-              backgroundColor: AppThemeData.buttonPrimary,
-              foregroundColor: AppThemeData.iconSecondary,
-              child: const Icon(
-                Icons.arrow_upward_rounded,
-              ),
-            ),
+        onPressed: _scrollToTop,
+        tooltip: 'Go to top',
+        backgroundColor: AppThemeData.buttonPrimary,
+        foregroundColor: AppThemeData.iconSecondary,
+        child: const Icon(
+          Icons.arrow_upward_rounded,
+        ),
+      ),
     );
+    
   }
 }
-

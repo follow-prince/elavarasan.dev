@@ -89,13 +89,13 @@ BEGIN
     BEGIN
         BLOCK "040904e4"
         BEGIN
-            VALUE "CompanyName", "dev.dileepabandara" "\0"
-            VALUE "FileDescription", "dileepabandara_dev" "\0"
+            VALUE "CompanyName", "dev.elavarasan" "\0"
+            VALUE "FileDescription", "elavarasan_dev" "\0"
             VALUE "FileVersion", VERSION_AS_STRING "\0"
-            VALUE "InternalName", "dileepabandara_dev" "\0"
-            VALUE "LegalCopyright", "Copyright (C) 2023 dev.dileepabandara. All rights reserved." "\0"
-            VALUE "OriginalFilename", "dileepabandara_dev.exe" "\0"
-            VALUE "ProductName", "dileepabandara_dev" "\0"
+            VALUE "InternalName", "elavarasan_dev" "\0"
+            VALUE "LegalCopyright", "Copyright (C) 2023 dev.elavarasan. All rights reserved." "\0"
+            VALUE "OriginalFilename", "elavarasan_dev.exe" "\0"
+            VALUE "ProductName", "elavarasan_dev" "\0"
             VALUE "ProductVersion", VERSION_AS_STRING "\0"
         END
     END
