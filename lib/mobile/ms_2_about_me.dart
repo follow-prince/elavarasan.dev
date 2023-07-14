@@ -14,6 +14,7 @@ class MS2AboutMe extends StatelessWidget {
 
   Widget bio(BuildContext context) {
     return SizedBox(
+      // don't  enable this css code because ????
       //color: Colors.blue,
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
@@ -87,6 +88,10 @@ class MS2AboutMe extends StatelessWidget {
       ),
     );
   }
+
+  //i  that is  Colum use doing me  reason for my working promotional  logo show and editing section
+
+  // this down coding for overriding template any query inform @follow-prince
 
   Widget titles(BuildContext context) {
     return SizedBox(

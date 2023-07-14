@@ -54,9 +54,9 @@ class DataValues {
       'In addition to my studies, I\'m also passionate about giving back to various communities and helping others, which is why I volunteer my time to help out whenever I can, and I believe that this work is vital in helping to create a better future for everyone.';
   static const String aboutMeFullNameTitle = 'Full Name';
   static const String aboutMeFullNameDescription =
-      'Elavarasan S';
+      'ELAVARASAN';
   static const String aboutMeNwITitle = 'Name with Initials';
-  static const String aboutMeNwIDescription = 'K.Sundaram ';
+  static const String aboutMeNwIDescription = 'ELAVARASAN S';
   static const String aboutMeFnLTitle = 'What do you like to be called?';
   static const String aboutMeFnLDescription = 'Prince';
   static const String aboutMeDobTitle = 'Birthday';
@@ -111,10 +111,10 @@ class DataValues {
   static const String educationOrg1Course1Name = 'HSC - Higher Secondary School Certificate (+2)';
   static const String educationOrg1Course1Grade =
       'Commerce with Computer Science';
-  static const String educationOrg1Course1Year = 'Attempted: 2017 & 2018 \ Percentage : 67% ';
+  static const String educationOrg1Course1Year = 'Studied Year: 2017 & 2018 \ Percentage : 67% ';
   static const String educationOrg1Course2Name = 'SSLC - Secondary School Leaving Certificate (10th) ';
   static const String educationOrg1Course2Grade = 'Passed with 62% Percentages';
-  static const String educationOrg1Course2Year = 'Attempted: 2015 & 2016';
+  static const String educationOrg1Course2Year = 'Studied Year: 2015 & 2016';
   static const String educationOrg1Course3Name = 'Education Period';
   static const String educationOrg1Course3Year = 'Secondary: 2011 - 2018';
   static const String educationOrg1Course3Year2 = 'Primary: 2005 - 2011';
@@ -128,7 +128,7 @@ class DataValues {
   static const String educationOrg03Course1Name = 'Bachelor of Commerce - B.Com';
   static const String educationOrg03Course1Grade =
       'CGPA 6.33 (First Class)';
-  static const String educationOrg03Course1Year = 'Attempted: 2018 - 2021';
+  static const String educationOrg03Course1Year = 'Studied Year: 2018 - 2021';
 
 
 
@@ -138,7 +138,7 @@ class DataValues {
   static const String educationOrg04Course1Name = 'Master of Computer Application - MCA';
   static const String educationOrg04Course1Grade =
       'Pursuing a Final Year';
-  static const String educationOrg04Course1Year = 'Attempted: 2022 - 2024';
+  static const String educationOrg04Course1Year = 'Studying Year: 2022 - 2024';
 
 
 

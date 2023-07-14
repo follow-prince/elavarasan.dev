@@ -11,7 +11,7 @@ class SocialProfiles extends StatelessWidget {
     return Row(
       mainAxisAlignment: MainAxisAlignment.center,
       children: [
-        ButtonIcon(name: 'dev', url: DataValues.devURL).returnButton(),
+        ButtonIcon(name: 'dev', url: DataValues.devURL ).returnButton(),
         const SizedBox(width: 10.0),
         ButtonIcon(name: 'hashnode', url: DataValues.hashnodeURL)
             .returnButton(),
