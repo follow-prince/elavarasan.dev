@@ -10,7 +10,7 @@
 ![CodeFactor Grade](https://img.shields.io/codefactor/grade/github/follow-prince/elavarasan.dev?color=0c22ed&label=CodeFactor%20Grade&style=flat-square)
 ![GitHub Latest Release](https://img.shields.io/github/v/release/follow-prince/elavarasan.dev?color=f5426f&label=Latest%20Release&style=flat-square)
 ![GitHub Total Downloads](https://img.shields.io/github/downloads/follow-prince/elavarasan.dev/total?color=4a2600&label=Total%20Downloads&style=flat-square)
-![Website Status](https://img.shields.io/website?down_message=Down%20%26%20Offline&label=Website%20Status&up_message=Up%20%26%20Online&url=https%3A%2F%2Fdileepabandara.dev)
+![Website Status](https://img.shields.io/website?down_message=Down%20%26%20Offline&label=Website%20Status&up_message=Up%20%26%20Online&url=https%3A%2F%2Fprince-dev.vercel.app)
 
 **Live Preview: 👉🏽 [elavarasan.dev](https://i-am-prince.vercel.app)**
 
