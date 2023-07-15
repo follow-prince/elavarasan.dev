@@ -7,14 +7,13 @@
 ![GitHub Top Language](https://img.shields.io/github/languages/top/follow-prince/elavarasan.dev?color=7f0c7f&style=flat-square)
 ![GitHub Issues](https://img.shields.io/github/issues/follow-prince/elavarasan.dev?color=098f76&label=GitHub%20Issues&style=flat-square)
 ![GitHub Pull Erequests](https://img.shields.io/github/issues-pr/follow-prince/elavarasan.dev?color=2c324f&label=GitHub%20Pull%20Requests&style=flat-square)
-![CodeFactor Grade](https://img.shields.io/codefactor/grade/github/follow-prince/elavarasan.dev?color=0c22ed&label=CodeFactor%20Grade&style=flat-square)
 ![GitHub Latest Release](https://img.shields.io/github/v/release/follow-prince/elavarasan.dev?color=f5426f&label=Latest%20Release&style=flat-square)
 ![GitHub Total Downloads](https://img.shields.io/github/downloads/follow-prince/elavarasan.dev/total?color=4a2600&label=Total%20Downloads&style=flat-square)
 ![Website Status](https://img.shields.io/website?down_message=Down%20%26%20Offline&label=Website%20Status&up_message=Up%20%26%20Online&url=https%3A%2F%2Fdileepabandara.dev)
 
-**Live Preview: 👉🏽 [elavarasan.dev](https://i-am-prince.vercel.app)**
+**Live Preview: 👉🏽 [elavarasan.dev](https://prince-dev.vercel.app)**
 
-✨ Hello there, I'm Dileepa Bandara. This is my personal website, which contains public information that anyone can find on the internet.
+✨ Hello there, I'm ELAVARASAN. This is my personal website, which contains public information that anyone can find on the internet.
 
 ## 🎬 Captured Moment
 
@@ -31,17 +30,7 @@ Version - v3.1.2
 Initial release date - July 12, 2023  
 [View all releases](https://github.com/follow-prince/elavarasan.dev/releases)
 
-## 🍃 Branches
 
-Source Code
-
-- [main](https://github.com/follow-prince/elavarasan.dev/tree/main) - Stable and latest version of the source code
-- [1.0.0](https://github.com/follow-prince/elavarasan.dev,v/tree/1.0.0) - Stable 1.0.0 version of the source code
-- [1.1.x](https://github.com/follow-prince/elavarasan.dev/tree/1.1.x) - Unstable and development versions of the source code
-
-Web Build
-
-- [web-build](https://github.com/follow-prince/elavarasan.dev/tree/web-build) - Stable and latest version of the web build
 
 ## 💙 Built With
 
@@ -95,7 +84,7 @@ Thanks to everyone who supported.
 ## 👨‍💻 Developed By
 
 ELAVARASAN
-[©elavarasan.dev](https://i-am-prince.vercel.app)
+[©elavarasan.dev](https://prinve-dev.vercel.app)
 
 ## 💬 Contact
 

@@ -100,7 +100,7 @@ class ContainerBanner {
                 throw 'Could not launch $url';
               }
               log("Direct to: $url");
-            },
+            }, duration: const Duration(milliseconds: 1000), onPressLink: () {  },
           )
         ],
       ),

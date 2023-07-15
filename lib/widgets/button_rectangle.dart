@@ -13,7 +13,7 @@ class ButtonRectangle extends StatelessWidget {
       required this.name,
       required this.onPressed,
       required this.color,
-      required this.message})
+      required this.message, required Duration duration, required Null Function() onPressLink})
       : super(key: key);
 
   @override

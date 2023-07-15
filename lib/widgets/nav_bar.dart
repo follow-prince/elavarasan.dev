@@ -63,7 +63,7 @@ class NavBar {
                   duration: const Duration(milliseconds: 1000),
                 ),
             color: Color.fromARGB(183, 60, 255, 0),
-            message: 'Go to ${DataValues.navBarContactMe} section'),
+            message: 'Go to ${DataValues.navBarContactMe} section', onPressLink: () {  }, duration: const Duration(milliseconds: 1000) ,),
       ],
     );
   }
@@ -155,29 +155,31 @@ class NavBar {
 
 
 
-               const SizedBox(height: 20.0),
-          ButtonRectangle(
-              name: DataValues.navBarContactMe,
-              onPressed: () => Scrollable.ensureVisible(
-                    KeyHolders.contactKey.currentContext!,
-                    duration: const Duration(milliseconds: 1000),
-                  ),
-              color: Color.fromARGB(81, 156, 152, 152),
-              message: 'Go to ${DataValues.navBarContactMe} section'),
-
+      //          const SizedBox(height: 20.0),
+      //     ButtonRectangle(
+      //         name: DataValues.navBarContactMe,
+      //         onPressed: () => Scrollable.ensureVisible(
+      //               KeyHolders.contactKey.currentContext!,
+      //               duration: const Duration(milliseconds: 1000),
+      //             ),
+      //         color: Color.fromARGB(81, 156, 152, 152),
+      //         message: 'Go to ${DataValues.navBarContactMe} section',  duration: const Duration(milliseconds: 1000), onPressLink: () {  }, 
+      // ),
+             
 
 
 
           
           const SizedBox(height: 20.0),
           ButtonRectangle(
-              name: DataValues.navBarResumeMe,
+              name: DataValues.navBarContactMe,
               onPressed: () => Scrollable.ensureVisible(
                     KeyHolders.contactKey.currentContext!,
                     duration: const Duration(milliseconds: 1000),
                   ),
               color: Color.fromARGB(155, 85, 255, 0),
-              message: 'Go to ${DataValues.navBarContactMe} section'),
+              message: 'Go to ${DataValues.navBarContactMe} section',  duration: const Duration(milliseconds: 1000), onPressLink: () {  }, 
+      ),
 
 
 

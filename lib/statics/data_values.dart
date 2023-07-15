@@ -27,6 +27,7 @@ class DataValues {
   static Uri volunteeringURL = Uri.parse('https://www.linkedin.com/in/elavarasa003');
   static Uri technotesURL = Uri.parse('https://i-am-prince.vercel.app');
   static Uri lateNightStudentURL = Uri.parse('https://i-am-prince.vercel.app');
+  
 
   // Header
   static const String headerGreetings = 'Hello, World! I\'m';
@@ -72,7 +73,7 @@ class DataValues {
   static const String aboutMeLocationDescription =
       'Chennai, TamilNadu, India (IN)';
   static const String aboutMeWorkDomainTitle = 'Working Domain';
-  static const String aboutMeWorkDomainDescription = 'i-am-prince.vercel.app\n'
+  static const String aboutMeWorkDomainDescription = 'i-am-prince.vercel.app \n'
       'UTC/GMT +5:30 hours';
   static const String aboutMeStudentTitle = 'Computing Student';
   static const String aboutMeStudentDescription =
