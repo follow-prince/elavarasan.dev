@@ -6,7 +6,7 @@ class DataValues {
       'Hello there, I\'m ELAVARASAN. This is my personal website, which contains public information that anyone can find on the internet.';
   static const String appDeveloper = 'ELAVARASAN';
   static const String appPackage = 'dev.elavarasan_dev';
-  static const String appVersion = '3.1.2';
+  static const String appVersion = '3.1.2 - Beta';
   static const String appBuildNumber = '1';
 
   // External links
@@ -21,13 +21,12 @@ class DataValues {
   static Uri instagramURL = Uri.parse('https://instagram.com/follow.prince');
   static Uri repoURL =
       Uri.parse('https://github.com/follow-prince/elavarasan.dev');
-  static Uri biographyURL = Uri.parse('https://biography.dileepabandara.dev'); //  
-  static Uri profilesURL = Uri.parse('https://profile.dileepabandara.dev');
-  static Uri toolkitURL = Uri.parse('https://toolkit.dileepabandara.dev');
-  static Uri volunteeringURL =
-      Uri.parse('https://volunteer.dileepabandara.dev');
-  static Uri technotesURL = Uri.parse('https://techdiary.dileepabandara.dev');
-  static Uri lateNightStudentURL = Uri.parse('https://blog.dileepabandara.dev');
+  static Uri biographyURL = Uri.parse('https://drive.google.com/file/d/1Yra9yOusuLVkt_QPaTW1HoDQCy49P1zy/view?usp=drive_link'); //  
+  static Uri profilesURL = Uri.parse('https://profile-prince-dev.vercel.app');
+  static Uri toolkitURL = Uri.parse('https://toolkit.prince.dev.vercel.app');
+  static Uri volunteeringURL = Uri.parse('https://www.linkedin.com/in/elavarasa003');
+  static Uri technotesURL = Uri.parse('https://i-am-prince.vercel.app');
+  static Uri lateNightStudentURL = Uri.parse('https://i-am-prince.vercel.app');
 
   // Header
   static const String headerGreetings = 'Hello, World! I\'m';
@@ -41,6 +40,7 @@ class DataValues {
   static const String navBarVolunteering = 'Volunteering';
   static const String navBarTechNotes = 'TechNotes';
   static const String navBarContactMe = 'Contact Me';
+  static const String navBarResumeMe = 'Resume';
 
   // About me
   static const String aboutMeTitle = 'About Me';
@@ -70,7 +70,7 @@ class DataValues {
   static const String aboutMeGenderDescription = 'Male (He/Him/His)';
   static const String aboutMeLocationTitle = 'Current Locations';
   static const String aboutMeLocationDescription =
-      'Chennai, TamilNadu,\ India (IN)';
+      'Chennai, TamilNadu, India (IN)';
   static const String aboutMeWorkDomainTitle = 'Working Domain';
   static const String aboutMeWorkDomainDescription = 'i-am-prince.vercel.app\n'
       'UTC/GMT +5:30 hours';
@@ -99,7 +99,7 @@ class DataValues {
   // Education
   static const String educationTitle = 'Education';
   static const String educationDescription =
-      'My educational background is not specific in any particular way and has come from various places. In this section, you can find out about my formal and other sources from 2003 to now. So, here are my school, undergraduate institution, and other learning platforms that I\'ve been involving for education.';
+      'My educational background is not specific in any particular way and has come from various places. In this section, you can find out about my formal and other sources from 2005 to now. So, here are my school, undergraduate institution, and other learning platforms that I\'ve been involving for education.';
 
 
 
@@ -107,11 +107,11 @@ class DataValues {
           //பள்ளி பிரிவு
 
   static const String educationOrg1Title =
-      'GOVT HSS, SUNNAMBUKULAM, \ Gummidipoondi (Thiruvallur), Tamil Nadu';
+      'GOVT HSS, SUNNAMBUKULAM,  Gummidipoondi (Thiruvallur), Tamil Nadu';
   static const String educationOrg1Course1Name = 'HSC - Higher Secondary School Certificate (+2)';
   static const String educationOrg1Course1Grade =
       'Commerce with Computer Science';
-  static const String educationOrg1Course1Year = 'Studied Year: 2017 & 2018 \ Percentage : 67% ';
+  static const String educationOrg1Course1Year = 'Studied Year: 2017 & 2018  Percentage : 67% ';
   static const String educationOrg1Course2Name = 'SSLC - Secondary School Leaving Certificate (10th) ';
   static const String educationOrg1Course2Grade = 'Passed with 62% Percentages';
   static const String educationOrg1Course2Year = 'Studied Year: 2015 & 2016';
@@ -162,14 +162,14 @@ class DataValues {
   static const String experienceTitle = 'Experience';
   static const String experienceDescription =
       'Since I started my MCA in 2022, I\'ve started to learn and apply my knowledge in different places. So I started working as a freelance web developer, and with time, I fell in love with different technologies. I received industrial training in my second year, and now I try out my experience.';
-  static const String experienceOrg1Title = 'Elavarasan';
-  static const String experienceOrg1Role = 'Web Developer';
+  static const String experienceOrg1Title = 'Fiverr · Freelance · Remote';
+  static const String experienceOrg1Role = 'Developer';
   static const String experienceOrg1Years = 'January 2023 - Percent ';
   static const String experienceOrg1Vales =
       'Mobile, Desktop, Web development, UI, Tech Support Assistant & Data Analysis.';
-  static const String experienceOrg2Title = 'DLK TECHNOLOGIES';
+  static const String experienceOrg2Title = 'DLK TECHNOLOGIES · Intern · On-site';
   static const String experienceOrg2Role =
-      'Python Developer Intern)';
+      'Machine Learning ';
   static const String experienceOrg2Years = 'April 2023 - May 2023';
   static const String experienceOrg2Vales =
       'Python, Machine Learning, Jupyter Notebook, Data Analysis and Vizuvalation.';

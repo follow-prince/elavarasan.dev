@@ -25,7 +25,7 @@ class MS2AboutMe extends StatelessWidget {
           ),
           const SizedBox(height: 20.0),
           ButtonTextSmall(
-            text: 'View Full Biography >>',
+            text: 'View to Resume >>',
             message: DataValues.biographyURL.toString(),
             url: DataValues.biographyURL,
           ),
@@ -96,34 +96,86 @@ class MS2AboutMe extends StatelessWidget {
   Widget titles(BuildContext context) {
     return SizedBox(
       //color: Colors.red,
-      child: Column(
+      child: Row(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          ContainerCard().type1(
-            title: DataValues.aboutMeStudentTitle,
-            description: DataValues.aboutMeStudentDescription,
-            image: 'assets/icons/student.png',
-            message: DataValues.linkedinURL.toString(),
-            url: DataValues.linkedinURL,
+          Expanded(
+            child: ContainerCard().type1(
+              title: DataValues.aboutMeStudentTitle,
+              description: DataValues.aboutMeStudentDescription,
+              image: 'assets/icons/student.png',
+              message: DataValues.linkedinURL.toString(),
+              url: DataValues.linkedinURL,
+            ),
           ),
-          const SizedBox(height: 20.0),
-          ContainerCard().type1(
-            title: DataValues.aboutMeDeveloperTitle,
-            description: DataValues.aboutMeDeveloperDescription,
-            image: 'assets/icons/developer.png',
-            message: DataValues.linkedinURL.toString(),
-            url: DataValues.linkedinURL,
+          SizedBox(width: MediaQuery.of(context).size.width * 0.03),
+          Expanded(
+            child: ContainerCard().type1(
+              title: DataValues.aboutMeDeveloperTitle,
+              description: DataValues.aboutMeDeveloperDescription,
+              image: 'assets/icons/developer.png',
+              message: DataValues.linkedinURL.toString(),
+              url: DataValues.linkedinURL,
+            ),
           ),
-          const SizedBox(height: 20.0),
-          ContainerCard().type1(
-            title: DataValues.aboutMeVolunteerTitle,
-            description: DataValues.aboutMeVolunteerDescription,
-            image: 'assets/icons/volunteer.png',
-            message: DataValues.linkedinURL.toString(),
-            url: DataValues.linkedinURL,
-          ),
+          // SizedBox(width: MediaQuery.of(context).size.width * 0.03),
+          // Expanded(
+          //   child: ContainerCard().type1(
+          //     title: DataValues.aboutMeVolunteerTitle,
+          //     description: DataValues.aboutMeVolunteerDescription,
+          //     image: 'assets/icons/volunteer.png',
+          //     message: DataValues.linkedinURL.toString(),
+          //     url: DataValues.linkedinURL,
+          //   ),
+          // ),
         ],
       ),
+
+
+
+
+// You needed some element add so enable this this code . that mean this code colum, not a row understand 
+
+//  child: Column(
+//         crossAxisAlignment: CrossAxisAlignment.start,
+//         children: [
+//           ContainerCard().type1(
+//             title: DataValues.aboutMeStudentTitle,
+//             description: DataValues.aboutMeStudentDescription,
+//             image: 'assets/icons/student.png',
+//             message: DataValues.linkedinURL.toString(),
+//             url: DataValues.linkedinURL,
+//           ),
+//           const SizedBox(height: 20.0),
+//           ContainerCard().type1(
+//             title: DataValues.aboutMeDeveloperTitle,
+//             description: DataValues.aboutMeDeveloperDescription,
+//             image: 'assets/icons/developer.png',
+//             message: DataValues.linkedinURL.toString(),
+//             url: DataValues.linkedinURL,
+//           ),
+//           // const SizedBox(height: 20.0),
+//           // ContainerCard().type1(
+//           //   title: DataValues.aboutMeVolunteerTitle,
+//           //   description: DataValues.aboutMeVolunteerDescription,
+//           //   image: 'assets/icons/volunteer.png',
+//           //   message: DataValues.linkedinURL.toString(),
+//           //   url: DataValues.linkedinURL,
+//           // ),
+//         ],
+//       ),
+
+
+
+
+
+
+
+
+
+
+
+
     );
   }
 

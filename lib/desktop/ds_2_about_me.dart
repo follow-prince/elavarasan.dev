@@ -28,7 +28,7 @@ class DS2AboutMe extends StatelessWidget {
                 ),
                 const SizedBox(height: 40.0),
                 ButtonTextSmall(
-                  text: 'View Full Biography >>',
+                  text: 'View to Resume >>',
                   message: DataValues.biographyURL.toString(),
                   url: DataValues.biographyURL,
                 ),
@@ -134,16 +134,16 @@ class DS2AboutMe extends StatelessWidget {
               url: DataValues.linkedinURL,
             ),
           ),
-          SizedBox(width: MediaQuery.of(context).size.width * 0.03),
-          Expanded(
-            child: ContainerCard().type1(
-              title: DataValues.aboutMeVolunteerTitle,
-              description: DataValues.aboutMeVolunteerDescription,
-              image: 'assets/icons/volunteer.png',
-              message: DataValues.linkedinURL.toString(),
-              url: DataValues.linkedinURL,
-            ),
-          ),
+          // SizedBox(width: MediaQuery.of(context).size.width * 0.03),
+          // Expanded(
+          //   child: ContainerCard().type1(
+          //     title: DataValues.aboutMeVolunteerTitle,
+          //     description: DataValues.aboutMeVolunteerDescription,
+          //     image: 'assets/icons/volunteer.png',
+          //     message: DataValues.linkedinURL.toString(),
+          //     url: DataValues.linkedinURL,
+          //   ),
+          // ),
         ],
       ),
     );

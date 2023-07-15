@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 import '../statics/data_values.dart';
 import '../statics/key_holders.dart';
 import '../theme/app_theme.dart';
-import '../widgets/container_banner.dart';
+// import '../widgets/container_banner.dart';
 import '../widgets/container_card.dart';
 import '../widgets/frame_title.dart';
 
@@ -27,18 +27,18 @@ class DS5Volunteering extends StatelessWidget {
               mainAxisAlignment: MainAxisAlignment.spaceBetween,
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
-                Expanded(
-                  child: ContainerCard().type3(
-                    image: 'flutterscope',
-                    title: DataValues.volunteeringOrg1Title,
-                    role: DataValues.volunteeringOrg1Role,
-                    years: DataValues.volunteeringOrg1Years,
-                    values: DataValues.volunteeringOrg1Vales,
-                    message: DataValues.linkedinURL.toString(),
-                    url: DataValues.linkedinURL,
-                    isButtonEnabled: true,
-                  ),
-                ),
+                // Expanded(
+                //   child: ContainerCard().type3(
+                //     image: 'flutterscope',
+                //     title: DataValues.volunteeringOrg1Title,
+                //     role: DataValues.volunteeringOrg1Role,
+                //     years: DataValues.volunteeringOrg1Years,
+                //     values: DataValues.volunteeringOrg1Vales,
+                //     message: DataValues.linkedinURL.toString(),
+                //     url: DataValues.linkedinURL,
+                //     isButtonEnabled: true,
+                //   ),
+                // ),
                 SizedBox(width: MediaQuery.of(context).size.width * 0.05),
                 Expanded(
                   child: ContainerCard().type3(
@@ -54,18 +54,18 @@ class DS5Volunteering extends StatelessWidget {
                 ),
               ],
             ),
-            const SizedBox(height: 80.0),
-            Center(
-              child: ContainerBanner().type1(
-                isDesktop: true,
-                title1: DataValues.volunteeringBanner,
-                title2: DataValues.volunteeringBannerTitle,
-                description: DataValues.volunteeringBannerWeb,
-                image: 'image',
-                message: 'Volunteering Profile',
-                url: DataValues.volunteeringURL,
-              ),
-            ),
+            // const SizedBox(height: 80.0),
+            // Center(
+            //   child: ContainerBanner().type1(
+            //     isDesktop: true,
+            //     title1: DataValues.volunteeringBanner,
+            //     title2: DataValues.volunteeringBannerTitle,
+            //     description: DataValues.volunteeringBannerWeb,
+            //     image: 'image',
+            //     message: 'Volunteering Profile',
+            //     url: DataValues.volunteeringURL,
+            //   ),
+            // ),
           ],
         ),
       ),

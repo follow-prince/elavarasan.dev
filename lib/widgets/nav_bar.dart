@@ -72,7 +72,17 @@ class NavBar {
     Widget miniHeader() {
       return Column(
         children: [
-          Image.asset('assets/images/logo.png', height: 80.0, width: 80.0),
+           Container(
+          decoration: BoxDecoration(
+            borderRadius: BorderRadius.circular(19.0), // Adjust the radius as needed
+            border: Border.all(
+              color: const Color.fromARGB(255, 255, 255, 255), // Specify the border color
+              width: 4.0, // Specify the border width
+            ),
+          ),
+           
+          child : Image.asset('assets/images/logo.png', height: 80.0, width: 80.0),
+           ),
           const SizedBox(height: 10.0),
           SelectableText(
             DataValues.headerName,
@@ -142,15 +152,35 @@ class NavBar {
             ),
             message: 'Go to ${DataValues.navBarTechNotes} section',
           ),
-          const SizedBox(height: 20.0),
+
+
+
+               const SizedBox(height: 20.0),
           ButtonRectangle(
               name: DataValues.navBarContactMe,
               onPressed: () => Scrollable.ensureVisible(
                     KeyHolders.contactKey.currentContext!,
                     duration: const Duration(milliseconds: 1000),
                   ),
+              color: Color.fromARGB(81, 156, 152, 152),
+              message: 'Go to ${DataValues.navBarContactMe} section'),
+
+
+
+
+          
+          const SizedBox(height: 20.0),
+          ButtonRectangle(
+              name: DataValues.navBarResumeMe,
+              onPressed: () => Scrollable.ensureVisible(
+                    KeyHolders.contactKey.currentContext!,
+                    duration: const Duration(milliseconds: 1000),
+                  ),
               color: Color.fromARGB(155, 85, 255, 0),
               message: 'Go to ${DataValues.navBarContactMe} section'),
+
+
+
         ],
       ),
     );

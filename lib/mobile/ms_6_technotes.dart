@@ -24,7 +24,7 @@ class MS6TechNotes extends StatelessWidget {
                 description: DataValues.technotesDescription),
             const SizedBox(height: 30.0),
             ContainerCard().type3(
-              image: 'logo',
+              image: 'notes-p',
               title: DataValues.technotesOrg1Title,
               role: DataValues.technotesOrg1Role,
               years: DataValues.technotesOrg1Years,
@@ -35,7 +35,7 @@ class MS6TechNotes extends StatelessWidget {
             ),
             const SizedBox(height: 20.0),
             ContainerCard().type3(
-              image: 'logo',
+              image: 'notes-p',
               title: DataValues.technotesOrg2Title,
               role: DataValues.technotesOrg2Role,
               years: DataValues.technotesOrg2Years,
