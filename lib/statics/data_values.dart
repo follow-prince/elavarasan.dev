@@ -75,13 +75,13 @@ class DataValues {
   static const String aboutMeWorkDomainTitle = 'Working Domain';
   static const String aboutMeWorkDomainDescription = 'i-am-prince.vercel.app \n'
       'UTC/GMT +5:30 hours';
-  static const String aboutMeStudentTitle = 'Computing Student';
+  static const String aboutMeStudentTitle = 'Student';
   static const String aboutMeStudentDescription =
       'I study computing technologies as a student by focusing on learning how computer systems work, from the physical (hardware) to the apps and programs (software) that users interact with, and I learn all about critical thinking, problem-solving, and analytical research, regardless of whether I apply all the computing principles to solve problems in scenarios.';
-  static const String aboutMeDeveloperTitle = 'Solution Developer';
+  static const String aboutMeDeveloperTitle = 'Developer';
   static const String aboutMeDeveloperDescription =
       'I use various tools for creating and implementing innovative solutions to problems in order to accomplish particular goals. I employ a variety of techniques, including software development alongside app development, as well as design and develop structures such as UI/UX, graphics, data management, and other analytical methods with a focus on business points.';
-  static const String aboutMeVolunteerTitle = 'Community Volunteer';
+  static const String aboutMeVolunteerTitle = 'Volunteer';
   static const String aboutMeVolunteerDescription =
       'I\'ve been a volunteer for many years and have had the opportunity to make a difference in my social and technical communities. Volunteering has allowed me to learn more about the people and things around me while also making a positive difference in the lives of those I serve, and by volunteering, I would love to help others reach their life goals.';
   static const String aboutMeHobbiesTitle = 'Hobbies';
