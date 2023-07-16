@@ -18,10 +18,10 @@
 ## 🎬 Captured Moment
 <div style="display: flex;">
   <div style="flex-basis: 50%;">
-    <img src="./assets/images/mobile-main.gif" controls width="100%" height="auto"></img>
+    <img src="./assets/images/mobile-main.gif" controls width="300" height="auto"></img>
   </div>
   <div style="flex-basis: 50%;">
-    <img src="./assets/images/mobile-main.gif" controls width="100%" height="auto"></img>
+    <img src="./assets/images/mobile-main.gif" controls width="300" height="auto"></img>
   </div>
 </div>
 
