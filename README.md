@@ -17,7 +17,7 @@
 
 ## 🎬 Captured Moment
 
-
+![cover](assets/images/mobile-main.gif)
 
 ## 🌐 Website
 
