@@ -17,7 +17,7 @@
 
 ## 🎬 Captured Moment
 
-<!-- [//]#![cover](https://user-images.githubusercontent.com/80202913/231434564-ce1b5761-3f5e-4c85-8593-87bda5a79d62.gif) -->
+
 
 ## 🌐 Website
 
