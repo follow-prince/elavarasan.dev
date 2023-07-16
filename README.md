@@ -16,14 +16,11 @@
 ✨ Hello there, I'm ELAVARASAN. This is my personal website, which contains public information that anyone can find on the internet.
 
 ## 🎬 Captured Moment
-<div style="display: flex;">
-  <div style="flex-basis: 50%;">
-    <img src="./assets/images/mobile-main.gif" width="200" height="auto" alt="GIF 1">
-  </div>
-  <div style="flex-basis: 50%;">
-    <img src="./assets/images/mobile-main.gif" width="200" height="auto" alt="GIF 2">
-  </div>
-</div>
+<p align="center">
+  <img alt="Light" src="./assets/images/mobile-main.gif" width="45%">
+&nbsp; &nbsp; &nbsp; &nbsp;
+  <img alt="Dark" src="./assets/images/mobile-main.gif" width="45%">
+</p>
 
 
 ## 🌐 Website
