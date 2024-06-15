@@ -10,7 +10,7 @@ class DataValues {
   static const String appBuildNumber = '1';
 
   // External links
-  static Uri devURL = Uri.parse('https://i-am-prince.vercel.app');
+  static Uri devURL = Uri.parse('https://elavarasan.me');
   static Uri hashnodeURL = Uri.parse('https://hashnode.com/@elavarasan');
   static Uri githubURL = Uri.parse('https://github.com/follow-prince');
   static Uri linkedinURL = Uri.parse('https://www.linkedin.com/in/elavarasa003');
@@ -21,12 +21,12 @@ class DataValues {
   static Uri instagramURL = Uri.parse('https://instagram.com/follow.prince');
   static Uri repoURL =
       Uri.parse('https://github.com/follow-prince/elavarasan.dev');
-  static Uri biographyURL = Uri.parse('https://drive.google.com/file/d/1Yra9yOusuLVkt_QPaTW1HoDQCy49P1zy/view?usp=drive_link'); //  
-  static Uri profilesURL = Uri.parse('https://profile-prince-dev.vercel.app');
-  static Uri toolkitURL = Uri.parse('https://toolkit.prince.dev.vercel.app');
+  static Uri biographyURL = Uri.parse('https://elavarasan.me/resume.pdf'); //  
+  static Uri profilesURL = Uri.parse('https://elavarasan.me');
+  static Uri toolkitURL = Uri.parse('https://elavarasan.me');
   static Uri volunteeringURL = Uri.parse('https://www.linkedin.com/in/elavarasa003');
-  static Uri technotesURL = Uri.parse('https://i-am-prince.vercel.app');
-  static Uri lateNightStudentURL = Uri.parse('https://i-am-prince.vercel.app');
+  static Uri technotesURL = Uri.parse('https://elavarasan.me/about');
+  static Uri lateNightStudentURL = Uri.parse('https://elavarasan.me');
   
 
   // Header
@@ -59,9 +59,9 @@ class DataValues {
   static const String aboutMeNwITitle = 'Name with Initials';
   static const String aboutMeNwIDescription = 'ELAVARASAN S';
   static const String aboutMeFnLTitle = 'What do you like to be called?';
-  static const String aboutMeFnLDescription = 'Prince';
+  static const String aboutMeFnLDescription = 'Mr.Princey';
   static const String aboutMeDobTitle = 'Birthday';
-  static const String aboutMeDobDescription = 'May 27, 2001';
+  static const String aboutMeDobDescription = 'May 27, 200X';
   static const String aboutMeLanguageTitle = 'Languages';
   static const String aboutMeLanguageDescription = 'Tamil (Native)\n'
       'English (Professional)';
@@ -73,7 +73,7 @@ class DataValues {
   static const String aboutMeLocationDescription =
       'Chennai, TamilNadu, India (IN)';
   static const String aboutMeWorkDomainTitle = 'Working Domain';
-  static const String aboutMeWorkDomainDescription = 'i-am-prince.vercel.app \n'
+  static const String aboutMeWorkDomainDescription = 'React Developer \n'
       'UTC/GMT +5:30 hours';
   static const String aboutMeStudentTitle = 'Student';
   static const String aboutMeStudentDescription =
@@ -95,7 +95,7 @@ class DataValues {
   static const String aboutMeBanner = 'You can find my';
   static const String aboutMeBannerTitle = 'public profiles';
   static const String aboutMeBannerWeb =
-      'Visit profile.elavarasan.dev to find all my public profiles.';
+      'Visit elavarasan.me to find all my public profiles.';
 
   // Education
   static const String educationTitle = 'Education';
@@ -108,14 +108,14 @@ class DataValues {
           //பள்ளி பிரிவு
 
   static const String educationOrg1Title =
-      'GOVT HSS, SUNNAMBUKULAM,  Gummidipoondi (Thiruvallur), Tamil Nadu';
+      'GOVT HSS,Tamil Nadu';
   static const String educationOrg1Course1Name = 'HSC - Higher Secondary School Certificate (+2)';
   static const String educationOrg1Course1Grade =
-      'Commerce with Computer Science';
-  static const String educationOrg1Course1Year = 'Studied Year: 2017 & 2018  Percentage : 67% ';
+      'Computer Science';
+  static const String educationOrg1Course1Year = 'Studied Year: 2018';
   static const String educationOrg1Course2Name = 'SSLC - Secondary School Leaving Certificate (10th) ';
-  static const String educationOrg1Course2Grade = 'Passed with 62% Percentages';
-  static const String educationOrg1Course2Year = 'Studied Year: 2015 & 2016';
+  static const String educationOrg1Course2Grade = '';
+  static const String educationOrg1Course2Year = 'Studied Year: 2016';
   static const String educationOrg1Course3Name = 'Education Period';
   static const String educationOrg1Course3Year = 'Secondary: 2011 - 2018';
   static const String educationOrg1Course3Year2 = 'Primary: 2005 - 2011';
@@ -128,7 +128,7 @@ class DataValues {
   static const String educationOrg03Title = 'University Of Madras ';
   static const String educationOrg03Course1Name = 'Bachelor of Commerce - B.Com';
   static const String educationOrg03Course1Grade =
-      'CGPA 6.33 (First Class)';
+      '';
   static const String educationOrg03Course1Year = 'Studied Year: 2018 - 2021';
 
 
@@ -138,7 +138,7 @@ class DataValues {
  static const String educationOrg04Title = 'Dr MGR Educational and Research Institute ';
   static const String educationOrg04Course1Name = 'Master of Computer Application - MCA';
   static const String educationOrg04Course1Grade =
-      'Pursuing a Final Year';
+      '';
   static const String educationOrg04Course1Year = 'Studying Year: 2022 - 2024';
 
 
@@ -177,7 +177,7 @@ class DataValues {
   static const String experienceBanner = 'Find my working';
   static const String experienceBannerTitle = 'toolkit';
   static const String experienceBannerWeb =
-      'Visit toolkit.elavarasan.dev for more details >>';
+      'Visit www.elavarasan.me/about for more details >>';
 
 
 
@@ -229,7 +229,7 @@ class DataValues {
   static const String contactDescription =
       'Hey! I appreciate you looking at my public profile. Please feel free to ask me anything or to discuss anything with me. I\'m happy to chat with and meet new people. Regardless of the fact that I don\'t use social media much, you can find me there. So find me and get in touch with me. Send me an email if you need to discuss anything serious with me. I\'ll get back to you in 12 to 24 hours.';
   static const String contactBanner = 'Send me an email at';
-  static const String contactEmail = 'elavarasa.003@gmail.com';
+  static const String contactEmail = 'contact@elavarasan.me';
 
   // Footer
   static const String copyright =

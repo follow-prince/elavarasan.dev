@@ -11,20 +11,20 @@ class MS1Header extends StatelessWidget {
     return [
       // Image.asset('assets/images/logo.png', height: 250.0, width: 250.0),
       Container(
-        decoration: BoxDecoration(
-          border: Border.all(
-            color: Colors.white, // Outline color
-            width: 6.0, // Outline width
-          ),
-          borderRadius: BorderRadius.circular(55.0), // Border radius
-        ),
-        child: Image.asset(
-          'assets/images/logo.png',
-          height: 250.0,
-          width: 250.0,
-
-        ),
-      ),
+  height: 250.0,
+  width: 250.0,
+  decoration: BoxDecoration(
+    border: Border.all(
+      color: Colors.white, // Outline color
+      width: 6.0, // Outline width
+    ),
+    borderRadius: BorderRadius.circular(55.0), // Border radius
+    image: DecorationImage(
+      image: AssetImage('assets/images/logo.png'),
+      fit: BoxFit.cover,
+    ),
+  ),
+),
 
       const SizedBox(height: 40.0),
       Column(

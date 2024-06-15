@@ -134,15 +134,15 @@ class NavBar {
             ),
             message: 'Go to ${DataValues.navBarExperience} section',
           ),
-          const SizedBox(height: 20.0),
-          ButtonTextLarge(
-            text: DataValues.navBarVolunteering,
-            onPressed: () => Scrollable.ensureVisible(
-              KeyHolders.volunteeringKey.currentContext!,
-              duration: const Duration(milliseconds: 1000),
-            ),
-            message: 'Go to ${DataValues.navBarVolunteering} section',
-          ),
+          // const SizedBox(height: 20.0),
+          // ButtonTextLarge(
+          //   text: DataValues.navBarVolunteering,
+          //   onPressed: () => Scrollable.ensureVisible(
+          //     KeyHolders.volunteeringKey.currentContext!,
+          //     duration: const Duration(milliseconds: 1000),
+          //   ),
+          //   message: 'Go to ${DataValues.navBarVolunteering} section',
+          // ),
           const SizedBox(height: 20.0),
           ButtonTextLarge(
             text: DataValues.navBarTechNotes,

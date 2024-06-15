@@ -11,20 +11,20 @@ class DS1Header extends StatelessWidget {
   List<Widget> headerData() {
     return [
       Container(
-        decoration: BoxDecoration(
-          border: Border.all(
-            color: Colors.white, // Outline color
-            width: 6.0, // Outline width
-          ),
-          borderRadius: BorderRadius.circular(55.0), // Border radius
-        ),
-        child: Image.asset(
-          'assets/images/logo.png',
-          height: 250.0,
-          width: 250.0,
-
-        ),
-      ),
+  height: 250.0,
+  width: 250.0,
+  decoration: BoxDecoration(
+    border: Border.all(
+      color: Colors.white, // Outline color
+      width: 6.0, // Outline width
+    ),
+    borderRadius: BorderRadius.circular(55.0), // Border radius
+    image: const DecorationImage(
+      image: AssetImage('assets/images/logo.png'),
+      fit: BoxFit.cover,
+    ),
+  ),
+),
 
       const SizedBox(width: 60.0),
       Column(
