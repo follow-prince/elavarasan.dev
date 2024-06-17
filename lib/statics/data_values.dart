@@ -13,7 +13,8 @@ class DataValues {
   static Uri devURL = Uri.parse('https://elavarasan.me');
   static Uri hashnodeURL = Uri.parse('https://hashnode.com/@elavarasan');
   static Uri githubURL = Uri.parse('https://github.com/follow-prince');
-  static Uri linkedinURL = Uri.parse('https://www.linkedin.com/in/elavarasa003');
+  static Uri linkedinURL =
+      Uri.parse('https://www.linkedin.com/in/elavarasa003');
   static Uri twitterURL = Uri.parse('https://twitter.com/follow_prince_');
   static Uri youtubeURL = Uri.parse('https://youtube.com/@follow-prince');
   static Uri telegramURL = Uri.parse('https://t.me/follow-Prince');
@@ -21,13 +22,13 @@ class DataValues {
   static Uri instagramURL = Uri.parse('https://instagram.com/follow.prince');
   static Uri repoURL =
       Uri.parse('https://github.com/follow-prince/elavarasan.dev');
-  static Uri biographyURL = Uri.parse('https://elavarasan.me/resume.pdf'); //  
+  static Uri biographyURL = Uri.parse('https://elavarasan.me/resume.pdf'); //
   static Uri profilesURL = Uri.parse('https://elavarasan.me');
   static Uri toolkitURL = Uri.parse('https://elavarasan.me');
-  static Uri volunteeringURL = Uri.parse('https://www.linkedin.com/in/elavarasa003');
+  static Uri volunteeringURL =
+      Uri.parse('https://www.linkedin.com/in/elavarasa003');
   static Uri technotesURL = Uri.parse('https://elavarasan.me/about');
   static Uri lateNightStudentURL = Uri.parse('https://elavarasan.me');
-  
 
   // Header
   static const String headerGreetings = 'Hello, World! I\'m';
@@ -54,8 +55,7 @@ class DataValues {
       'Technology is always igniting my passion for the positive impact it can have, and I\'m excited to continue growing my skills and knowledge, so I started my career as a techie. '
       'In addition to my studies, I\'m also passionate about giving back to various communities and helping others, which is why I volunteer my time to help out whenever I can, and I believe that this work is vital in helping to create a better future for everyone.';
   static const String aboutMeFullNameTitle = 'Full Name';
-  static const String aboutMeFullNameDescription =
-      'ELAVARASAN';
+  static const String aboutMeFullNameDescription = 'ELAVARASAN';
   static const String aboutMeNwITitle = 'Name with Initials';
   static const String aboutMeNwIDescription = 'ELAVARASAN S';
   static const String aboutMeFnLTitle = 'What do you like to be called?';
@@ -102,18 +102,15 @@ class DataValues {
   static const String educationDescription =
       'My educational background is not specific in any particular way and has come from various places. In this section, you can find out about my formal and other sources from 2005 to now. So, here are my school, undergraduate institution, and other learning platforms that I\'ve been involving for education.';
 
+  //பள்ளி பிரிவு
 
-
-
-          //பள்ளி பிரிவு
-
-  static const String educationOrg1Title =
-      'GOVT HSS,Tamil Nadu';
-  static const String educationOrg1Course1Name = 'HSC - Higher Secondary School Certificate (+2)';
-  static const String educationOrg1Course1Grade =
-      'Computer Science';
+  static const String educationOrg1Title = 'GOVT HSS,Tamil Nadu';
+  static const String educationOrg1Course1Name =
+      'HSC - Higher Secondary School Certificate (+2)';
+  static const String educationOrg1Course1Grade = 'Computer Science';
   static const String educationOrg1Course1Year = 'Studied Year: 2018';
-  static const String educationOrg1Course2Name = 'SSLC - Secondary School Leaving Certificate (10th) ';
+  static const String educationOrg1Course2Name =
+      'SSLC - Secondary School Leaving Certificate (10th) ';
   static const String educationOrg1Course2Grade = '';
   static const String educationOrg1Course2Year = 'Studied Year: 2016';
   static const String educationOrg1Course3Name = 'Education Period';
@@ -121,38 +118,18 @@ class DataValues {
   static const String educationOrg1Course3Year2 = 'Primary: 2005 - 2011';
 
 
-          // கல்லூரி பிரிவு
-
-
-
   static const String educationOrg03Title = 'University Of Madras ';
-  static const String educationOrg03Course1Name = 'Bachelor of Commerce - B.Com';
-  static const String educationOrg03Course1Grade =
-      '';
+  static const String educationOrg03Course1Name =
+      'Bachelor of Commerce - B.Com';
+  static const String educationOrg03Course1Grade = '';
   static const String educationOrg03Course1Year = 'Studied Year: 2018 - 2021';
 
-
-
-
-
- static const String educationOrg04Title = 'Dr MGR Educational and Research Institute ';
-  static const String educationOrg04Course1Name = 'Master of Computer Application - MCA';
-  static const String educationOrg04Course1Grade =
-      '';
+  static const String educationOrg04Title =
+      'Dr MGR Educational and Research Institute ';
+  static const String educationOrg04Course1Name =
+      'Master of Computer Application - MCA';
+  static const String educationOrg04Course1Grade = '';
   static const String educationOrg04Course1Year = 'Studying Year: 2022 - 2024';
-
-
-
-
-
-
-
-
-
-
-
-
-
 
   static const String educationBanner = 'These Are Some Of My Other';
   static const String educationBannerTitle = 'Online Learning Platforms';
@@ -168,9 +145,9 @@ class DataValues {
   static const String experienceOrg1Years = 'January 2023 - Percent ';
   static const String experienceOrg1Vales =
       'Mobile, Desktop, Web development, UI, Tech Support Assistant & Data Analysis.';
-  static const String experienceOrg2Title = 'DLK TECHNOLOGIES · Intern · On-site';
-  static const String experienceOrg2Role =
-      'Machine Learning ';
+  static const String experienceOrg2Title =
+      'DLK TECHNOLOGIES · Intern · On-site';
+  static const String experienceOrg2Role = 'Machine Learning ';
   static const String experienceOrg2Years = 'April 2023 - May 2023';
   static const String experienceOrg2Vales =
       'Python, Machine Learning, Jupyter Notebook, Data Analysis and Vizuvalation.';
@@ -179,35 +156,7 @@ class DataValues {
   static const String experienceBannerWeb =
       'Visit www.elavarasan.me/about for more details >>';
 
-
-
-
-
-  // Volunteering
-
-  // 1
-  static const String volunteeringTitle = 'Volunteering';
-  static const String volunteeringDescription =
-      'Volunteering is an amazing way for me to give back to communities and make a difference. It\'s also a terrific opportunity to meet new people, learn new skills, and gain valuable experience. I do volunteer work for many different social and technical organizations. These are more focused organizations where I am presently volunteering.';
-  static const String volunteeringOrg1Title = 'FlutterScope';
-  static const String volunteeringOrg1Role = 'Content Creator';
-  static const String volunteeringOrg1Years = 'January 2023 - Present';
-  static const String volunteeringOrg1Vales =
-      'FlutterScope was founded to disseminate knowledge about Flutter and related technologies. This community is an educational group that is not affiliated with or otherwise sponsored by Google LLC.';
-
-
-      //2
-  static const String volunteeringOrg2Title = 'Microsoft';
-  static const String volunteeringOrg2Role =
-      'Microsoft Learn Student Ambassador';
-  static const String volunteeringOrg2Years = 'Jun 2023 - Present';
-  static const String volunteeringOrg2Vales =
-      'Microsoft Learn Student Ambassadors are a global group of campus leaders who are eager to help fellow students, create robust tech communities, and develop technical and career skills for the future.';
-  static const String volunteeringBanner = 'Find more about my';
-  static const String volunteeringBannerTitle = 'volunteering';
-  static const String volunteeringBannerWeb =
-      'Visit volunteer.elavarasan.dev for more details >>';
-
+  
   // TechNotes
   static const String technotesTitle = 'TechNotes';
   static const String technotesDescription =

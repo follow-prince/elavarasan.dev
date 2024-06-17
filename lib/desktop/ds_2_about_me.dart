@@ -135,20 +135,6 @@ class DS2AboutMe extends StatelessWidget {
             ),
           ),
 
-
-
-
-          
-          // SizedBox(width: MediaQuery.of(context).size.width * 0.03),
-          // Expanded(
-          //   child: ContainerCard().type1(
-          //     title: DataValues.aboutMeVolunteerTitle,
-          //     description: DataValues.aboutMeVolunteerDescription,
-          //     image: 'assets/icons/volunteer.png',
-          //     message: DataValues.linkedinURL.toString(),
-          //     url: DataValues.linkedinURL,
-          //   ),
-          // ),
         ],
       ),
     );

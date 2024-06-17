@@ -57,13 +57,16 @@ class NavBar {
         ),
         const SizedBox(width: 20.0),
         ButtonRectangle(
-            name: DataValues.navBarContactMe,
-            onPressed: () => Scrollable.ensureVisible(
-                  KeyHolders.contactKey.currentContext!,
-                  duration: const Duration(milliseconds: 1000),
-                ),
-            color: Color.fromARGB(183, 60, 255, 0),
-            message: 'Go to ${DataValues.navBarContactMe} section', onPressLink: () {  }, duration: const Duration(milliseconds: 1000) ,),
+          name: DataValues.navBarContactMe,
+          onPressed: () => Scrollable.ensureVisible(
+            KeyHolders.contactKey.currentContext!,
+            duration: const Duration(milliseconds: 1000),
+          ),
+          color: Color.fromARGB(183, 60, 255, 0),
+          message: 'Go to ${DataValues.navBarContactMe} section',
+          onPressLink: () {},
+          duration: const Duration(milliseconds: 1000),
+        ),
       ],
     );
   }
@@ -72,17 +75,19 @@ class NavBar {
     Widget miniHeader() {
       return Column(
         children: [
-           Container(
-          decoration: BoxDecoration(
-            borderRadius: BorderRadius.circular(19.0), // Adjust the radius as needed
-            border: Border.all(
-              color: const Color.fromARGB(255, 255, 255, 255), // Specify the border color
-              width: 4.0, // Specify the border width
+          Container(
+            decoration: BoxDecoration(
+              borderRadius:
+                  BorderRadius.circular(19.0), // Adjust the radius as needed
+              border: Border.all(
+                color: const Color.fromARGB(
+                    255, 255, 255, 255), // Specify the border color
+                width: 4.0, // Specify the border width
+              ),
             ),
+            child: Image.asset('assets/images/logo.png',
+                height: 80.0, width: 80.0),
           ),
-           
-          child : Image.asset('assets/images/logo.png', height: 80.0, width: 80.0),
-           ),
           const SizedBox(height: 10.0),
           SelectableText(
             DataValues.headerName,
@@ -134,15 +139,6 @@ class NavBar {
             ),
             message: 'Go to ${DataValues.navBarExperience} section',
           ),
-          // const SizedBox(height: 20.0),
-          // ButtonTextLarge(
-          //   text: DataValues.navBarVolunteering,
-          //   onPressed: () => Scrollable.ensureVisible(
-          //     KeyHolders.volunteeringKey.currentContext!,
-          //     duration: const Duration(milliseconds: 1000),
-          //   ),
-          //   message: 'Go to ${DataValues.navBarVolunteering} section',
-          // ),
           const SizedBox(height: 20.0),
           ButtonTextLarge(
             text: DataValues.navBarTechNotes,
@@ -152,37 +148,18 @@ class NavBar {
             ),
             message: 'Go to ${DataValues.navBarTechNotes} section',
           ),
-
-
-
-      //          const SizedBox(height: 20.0),
-      //     ButtonRectangle(
-      //         name: DataValues.navBarContactMe,
-      //         onPressed: () => Scrollable.ensureVisible(
-      //               KeyHolders.contactKey.currentContext!,
-      //               duration: const Duration(milliseconds: 1000),
-      //             ),
-      //         color: Color.fromARGB(81, 156, 152, 152),
-      //         message: 'Go to ${DataValues.navBarContactMe} section',  duration: const Duration(milliseconds: 1000), onPressLink: () {  }, 
-      // ),
-             
-
-
-
-          
           const SizedBox(height: 20.0),
           ButtonRectangle(
-              name: DataValues.navBarContactMe,
-              onPressed: () => Scrollable.ensureVisible(
-                    KeyHolders.contactKey.currentContext!,
-                    duration: const Duration(milliseconds: 1000),
-                  ),
-              color: Color.fromARGB(155, 85, 255, 0),
-              message: 'Go to ${DataValues.navBarContactMe} section',  duration: const Duration(milliseconds: 1000), onPressLink: () {  }, 
-      ),
-
-
-
+            name: DataValues.navBarContactMe,
+            onPressed: () => Scrollable.ensureVisible(
+              KeyHolders.contactKey.currentContext!,
+              duration: const Duration(milliseconds: 1000),
+            ),
+            color: Color.fromARGB(155, 85, 255, 0),
+            message: 'Go to ${DataValues.navBarContactMe} section',
+            duration: const Duration(milliseconds: 1000),
+            onPressLink: () {},
+          ),
         ],
       ),
     );

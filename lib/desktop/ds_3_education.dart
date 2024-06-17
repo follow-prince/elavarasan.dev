@@ -26,43 +26,34 @@ class DS3Education extends StatelessWidget {
               mainAxisAlignment: MainAxisAlignment.spaceBetween,
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
-
-
                 Expanded(
                   child: ContainerCard().type03(
                     image: 'mgr',
-              title: DataValues.educationOrg04Title,
-              values: [
-                DataValues.educationOrg04Course1Name,
-                DataValues.educationOrg04Course1Grade,
-                DataValues.educationOrg04Course1Year,
-
-              ],
+                    title: DataValues.educationOrg04Title,
+                    values: [
+                      DataValues.educationOrg04Course1Name,
+                      DataValues.educationOrg04Course1Grade,
+                      DataValues.educationOrg04Course1Year,
+                    ],
                     message: DataValues.linkedinURL.toString(),
                     url: DataValues.linkedinURL,
                   ),
                 ),
-
                 SizedBox(width: MediaQuery.of(context).size.width * 0.05),
-
-
-
                 Expanded(
                   child: ContainerCard().type03(
                     image: 'nibm',
-              title: DataValues.educationOrg03Title,
-              values: [
-                DataValues.educationOrg03Course1Name,
-                DataValues.educationOrg03Course1Grade,
-                DataValues.educationOrg03Course1Year,
-
-              ],
+                    title: DataValues.educationOrg03Title,
+                    values: [
+                      DataValues.educationOrg03Course1Name,
+                      DataValues.educationOrg03Course1Grade,
+                      DataValues.educationOrg03Course1Year,
+                    ],
                     message: DataValues.linkedinURL.toString(),
                     url: DataValues.linkedinURL,
                   ),
                 ),
                 SizedBox(width: MediaQuery.of(context).size.width * 0.05),
-
                 Expanded(
                   child: ContainerCard().type2(
                     image: 'mms',
@@ -82,7 +73,6 @@ class DS3Education extends StatelessWidget {
                     url: DataValues.linkedinURL,
                   ),
                 ),
-              
               ],
             ),
           ],

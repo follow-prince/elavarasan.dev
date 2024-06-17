@@ -89,10 +89,6 @@ class MS2AboutMe extends StatelessWidget {
     );
   }
 
-  //i  that is  Colum use doing me  reason for my working promotional  logo show and editing section
-
-  // this down coding for overriding template any query inform @follow-prince
-
   Widget titles(BuildContext context) {
     return SizedBox(
       //color: Colors.red,
@@ -118,64 +114,8 @@ class MS2AboutMe extends StatelessWidget {
               url: DataValues.linkedinURL,
             ),
           ),
-          // SizedBox(width: MediaQuery.of(context).size.width * 0.03),
-          // Expanded(
-          //   child: ContainerCard().type1(
-          //     title: DataValues.aboutMeVolunteerTitle,
-          //     description: DataValues.aboutMeVolunteerDescription,
-          //     image: 'assets/icons/volunteer.png',
-          //     message: DataValues.linkedinURL.toString(),
-          //     url: DataValues.linkedinURL,
-          //   ),
-          // ),
         ],
       ),
-
-
-
-
-// You needed some element add so enable this this code . that mean this code colum, not a row understand 
-
-//  child: Column(
-//         crossAxisAlignment: CrossAxisAlignment.start,
-//         children: [
-//           ContainerCard().type1(
-//             title: DataValues.aboutMeStudentTitle,
-//             description: DataValues.aboutMeStudentDescription,
-//             image: 'assets/icons/student.png',
-//             message: DataValues.linkedinURL.toString(),
-//             url: DataValues.linkedinURL,
-//           ),
-//           const SizedBox(height: 20.0),
-//           ContainerCard().type1(
-//             title: DataValues.aboutMeDeveloperTitle,
-//             description: DataValues.aboutMeDeveloperDescription,
-//             image: 'assets/icons/developer.png',
-//             message: DataValues.linkedinURL.toString(),
-//             url: DataValues.linkedinURL,
-//           ),
-//           // const SizedBox(height: 20.0),
-//           // ContainerCard().type1(
-//           //   title: DataValues.aboutMeVolunteerTitle,
-//           //   description: DataValues.aboutMeVolunteerDescription,
-//           //   image: 'assets/icons/volunteer.png',
-//           //   message: DataValues.linkedinURL.toString(),
-//           //   url: DataValues.linkedinURL,
-//           // ),
-//         ],
-//       ),
-
-
-
-
-
-
-
-
-
-
-
-
     );
   }
 
