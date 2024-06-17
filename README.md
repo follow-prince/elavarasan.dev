@@ -8,9 +8,9 @@
 ![GitHub Issues](https://img.shields.io/github/issues/follow-prince/elavarasan.dev?color=098f76&label=GitHub%20Issues&style=flat-square)
 ![GitHub Pull Requests](https://img.shields.io/github/issues-pr/follow-prince/elavarasan.dev?color=2c324f&label=GitHub%20Pull%20Requests&style=flat-square)
 ![GitHub Total Downloads](https://img.shields.io/github/downloads/follow-prince/elavarasan.dev/total?color=4a2600&label=Total%20Downloads&style=flat-square)
-![Website Status](https://img.shields.io/website?down_message=Down%20%26%20Offline&label=Website%20Status&up_message=Up%20%26%20Online&url=https%3A%2F%2Fprince-dev.vercel.app)
+![Website Status](https://img.shields.io/website?down_message=Down%20%26%20Offline&label=Website%20Status&up_message=Up%20%26%20Online&url=https%3A%2F%2Fdev.elavarasan.me)
 
-**Live Preview: 👉🏽 [@elavarasan.me](https://elvarasan.mw)**
+**Live Preview: 👉🏽 [dev.elavarasan.me](https://dev.elavarasan.me)**
 
 ✨ Hello there, I'm ELAVARASAN. This is my personal website, which contains public information that anyone can find on the internet.
 
