@@ -24,7 +24,7 @@
 
 ## 🌐 Website
 
-<https://i-am-prince.vercel.app/>  
+<https://dev.elavarasan.me/>  
 
 
 ## 🎉 Release Status
@@ -87,9 +87,9 @@ Thanks to everyone who supported.
 ## 👨‍💻 Developed By
 
 ELAVARASAN
-[©elavarasan.dev](https://prinve-dev.vercel.app)
+[@follow-prince](https://elavarasan.me)
 
 ## 💬 Contact
 
 Send me an email if you need to contact me to discuss anything.  
-Email - <elavarasa.003@gmail.com>
+Email - <contact@elavarasan.me>
